@@ -1,0 +1,2 @@
+//Specified npcs will give reputation points to killer's clan when someone kills them
+npc_begin npc_class_id=123456	reputation_points=400	npc_end

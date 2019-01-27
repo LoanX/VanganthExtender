@@ -1,0 +1,139 @@
+//Bypass description:
+//sb_b_p?id=SKILL_PCH_ID - buff player
+//sb_b_s?id=SKILL_PCH_ID - buff summon
+//sb_a_p?id=SKILL_PCH_ID - add buff to player's buff list
+//sb_a_s?id=SKILL_PCH_ID - add buff to summon's buff list
+//sb_u_p - use player's buff list
+//sb_u_s - user summon's buff list
+//sb_c_p - clear player's buff list
+//sb_c_s - clear summon's buff list
+//sb_r_p - recover player's hp/mp/cp
+//sb_r_s - recover summon's hp/mp
+//sb_d_p - dispel all player's buffs
+//sb_d_s - dispel all summon's buffs
+//sb_u_mp?name=MACRO_NAME - use macro player
+//sb_u_ms?name=MACRO_NAME - use macro summon
+//Remote bypasses - can be used in buff coin etc (works without talking with npc)
+//sb_r_b_p?id=SKILL_PCH_ID - buff player
+//sb_r_b_s?id=SKILL_PCH_ID - buff summon
+//sb_r_a_p?id=SKILL_PCH_ID - add buff to player's buff list
+//sb_r_a_s?id=SKILL_PCH_ID - add buff to summon's buff list
+//sb_r_u_p - use player's buff list
+//sb_r_u_s - user summon's buff list
+//sb_r_c_p - clear player's buff list
+//sb_r_c_s - clear summon's buff list
+//sb_r_r_p - recover player's hp/mp/cp
+//sb_r_r_s - recover summon's hp/mp
+//sb_r_d_p - dispel all player's buffs
+//sb_r_d_s - dispel all summon's buffs
+//sb_r_u_mp?name=MACRO_NAME - use macro player
+//sb_r_u_ms?name=MACRO_NAME - use macro summon
+//Setting params description:
+//allow_pk - can be used by player killer
+//allow_guilty - can be used by flagged player (in pvp mode)
+//allow_combat - can be used by player in combat mode
+//buff_delay - delay between buffs in miliseconds (used in timer)
+//use_delay - flood protection (in ms)
+
+setting_begin enabled=1	allow_pk=0	allow_guilty=0	allow_combat=0	allow_olympiad=0	allow_cursedweapon=0	use_delay=500	buff_delay=0	low_level_msg=2454	high_level_msg=2455	not_enough_adena_msg=2456	add_to_list_msg=2408	add_to_summon_list_msg=2409	setting_end
+
+//buff macro
+macro_begin	name=mage	min_level=0	max_level=80	price_id=57	abnormal_time=3600	price_amount=1000	required_item_id=0	required_item_amount=0	buffs={91029507;68157443;78905346;69599234;69402627;70647814;85393410;71106563;67895298;88604673}	macro_end
+//remote macro - buff coin etc
+macro_remote_begin	name=mage	min_level=0	max_level=80	price_id=57	abnormal_time=3600	price_amount=1000	required_item_id=0	required_item_amount=0	buffs={91029507;68157443;78905346;69599234;69402627;70647814;85393410;71106563;67895298;88604673}	macro_end
+
+
+//Buff params description:
+//pch_id - skill id from skill_pch.txt
+//price_id / price_amount - consumed price
+//min_level - minimum player level
+//max_level - max player level
+//abnormal_time - custom buff time
+//required_item_id/required_item_amount - not consumed
+
+//s_agit_wind_walk2
+buff_begin	pch_id=1111554	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	buff_end
+//s_agit_shield3
+buff_begin	pch_id=1112067	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	buff_end
+//s_agit_might3
+buff_begin	pch_id=1112323	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	buff_end
+//s_agit_mental_shield4
+buff_begin	pch_id=1112580	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	buff_end
+//s_agit_bless_the_body6
+buff_begin	pch_id=1112838	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	buff_end
+//s_agit_bless_the_soul6
+buff_begin	pch_id=1113094	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	buff_end
+//s_agit_magic_barrier2
+buff_begin	pch_id=1113346	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	buff_end
+//s_agit_resist_shock4
+buff_begin	pch_id=1113604	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	buff_end
+//s_agit_concentration6
+buff_begin	pch_id=1113862	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	buff_end
+//s_agit_berserker_spirit2
+buff_begin	pch_id=1114114	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	buff_end
+//s_agit_bless_shield6
+buff_begin	pch_id=1114374	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	buff_end
+//s_agit_vampiric_rage4
+buff_begin	pch_id=1114628	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	buff_end
+//s_agit_arcane_acumen3
+buff_begin	pch_id=1114883	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	buff_end
+//s_agit_empower3
+buff_begin	pch_id=1115139	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	buff_end
+//s_agit_haste2
+buff_begin	pch_id=1115394	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	buff_end
+//s_agit_guidance3
+buff_begin	pch_id=1115651	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	buff_end
+//s_agit_focus3
+buff_begin	pch_id=1115907	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	buff_end
+//s_agit_death_whisper3
+buff_begin	pch_id=1116163	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	buff_end
+//s_elemental_protection1
+buff_begin	pch_id=346113	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	buff_end
+//s_divine_protection1
+buff_begin	pch_id=346369	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	buff_end
+//s_arcane_protection1
+buff_begin	pch_id=346625	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	buff_end
+
+//remote buff - buffs used without npc (example: used in buff book)
+//s_agit_wind_walk2
+remote_buff_begin	pch_id=1111554	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	remote_buff_end
+//s_agit_shield3
+remote_buff_begin	pch_id=1112067	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	remote_buff_end
+//s_agit_might3
+remote_buff_begin	pch_id=1112323	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	remote_buff_end
+//s_agit_mental_shield4
+remote_buff_begin	pch_id=1112580	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	remote_buff_end
+//s_agit_bless_the_body6
+remote_buff_begin	pch_id=1112838	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	remote_buff_end
+//s_agit_bless_the_soul6
+remote_buff_begin	pch_id=1113094	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	remote_buff_end
+//s_agit_magic_barrier2
+remote_buff_begin	pch_id=1113346	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	remote_buff_end
+//s_agit_resist_shock4
+remote_buff_begin	pch_id=1113604	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	remote_buff_end
+//s_agit_concentration6
+remote_buff_begin	pch_id=1113862	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	remote_buff_end
+//s_agit_berserker_spirit2
+remote_buff_begin	pch_id=1114114	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	remote_buff_end
+//s_agit_bless_shield6
+remote_buff_begin	pch_id=1114374	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	remote_buff_end
+//s_agit_vampiric_rage4
+remote_buff_begin	pch_id=1114628	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	remote_buff_end
+//s_agit_arcane_acumen3
+remote_buff_begin	pch_id=1114883	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	remote_buff_end
+//s_agit_empower3
+remote_buff_begin	pch_id=1115139	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	remote_buff_end
+//s_agit_haste2
+remote_buff_begin	pch_id=1115394	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	remote_buff_end
+//s_agit_guidance3
+remote_buff_begin	pch_id=1115651	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	remote_buff_end
+//s_agit_focus3
+remote_buff_begin	pch_id=1115907	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	remote_buff_end
+//s_agit_death_whisper3
+remote_buff_begin	pch_id=1116163	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	remote_buff_end
+//s_elemental_protection1
+remote_buff_begin	pch_id=346113	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	remote_buff_end
+//s_divine_protection1
+remote_buff_begin	pch_id=346369	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	remote_buff_end
+//s_arcane_protection1
+remote_buff_begin	pch_id=346625	price_id=57	price_amount=1000	min_level=0	max_level=80	abnormal_time=3600	remote_buff_end

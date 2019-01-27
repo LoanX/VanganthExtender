@@ -1,0 +1,2731 @@
+INSERT INTO user_prohibit (char_name)
+SELECT 'Gremlin'
+UNION
+SELECT 'Rabbit'
+UNION
+SELECT 'Goblin'
+UNION
+SELECT 'Imp'
+UNION
+SELECT 'Dryad'
+UNION
+SELECT 'Pincher'
+UNION
+SELECT 'Pinrul'
+UNION
+SELECT 'Prowler'
+UNION
+SELECT 'Lirein'
+UNION
+SELECT 'Lycanthrope'
+UNION
+SELECT 'Basilisk'
+UNION
+SELECT 'Androscorpio'
+UNION
+SELECT 'Ant'
+UNION
+SELECT 'Puncher'
+UNION
+SELECT 'Skeleton'
+UNION
+SELECT 'Crasher'
+UNION
+SELECT 'Wererat'
+UNION
+SELECT 'Salamander'
+UNION
+SELECT 'Undine'
+UNION
+SELECT 'Fox'
+UNION
+SELECT 'Wolf'
+UNION
+SELECT 'Orc'
+UNION
+SELECT 'Werewolf'
+UNION
+SELECT 'Bugbear'
+UNION
+SELECT 'Alligator'
+UNION
+SELECT 'Drake'
+UNION
+SELECT 'Gargoyle'
+UNION
+SELECT 'Griffon'
+UNION
+SELECT 'Grizzly'
+UNION
+SELECT 'Harpy'
+UNION
+SELECT 'Hobgoblin'
+UNION
+SELECT 'Kobold'
+UNION
+SELECT 'Lizardman'
+UNION
+SELECT 'Medusa'
+UNION
+SELECT 'Minotaur'
+UNION
+SELECT 'Ogre'
+UNION
+SELECT 'Succubus'
+UNION
+SELECT 'Silenos'
+UNION
+SELECT 'Spartoi'
+UNION
+SELECT 'Specter'
+UNION
+SELECT 'Sylph'
+UNION
+SELECT 'Troll'
+UNION
+SELECT 'Wyrm'
+UNION
+SELECT 'Zombie'
+UNION
+SELECT 'Puma'
+UNION
+SELECT 'Tyrant'
+UNION
+SELECT 'Strain'
+UNION
+SELECT 'Ghoul'
+UNION
+SELECT 'Porta'
+UNION
+SELECT 'Excuro'
+UNION
+SELECT 'Mordeo'
+UNION
+SELECT 'Ricenseo'
+UNION
+SELECT 'Krator'
+UNION
+SELECT 'Premo'
+UNION
+SELECT 'Validus'
+UNION
+SELECT 'Dicor'
+UNION
+SELECT 'Perum'
+UNION
+SELECT 'Torfe'
+UNION
+SELECT 'Shackle'
+UNION
+SELECT 'Grave'
+UNION
+SELECT 'Vrykolakas'
+UNION
+SELECT 'Susceptor'
+UNION
+SELECT 'Elpy'
+UNION
+SELECT 'Will-O-Wisp'
+UNION
+SELECT 'Ghost'
+UNION
+SELECT 'Windsus'
+UNION
+SELECT 'Grandis'
+UNION
+SELECT 'Formor'
+UNION
+SELECT 'Fline'
+UNION
+SELECT 'Liele'
+UNION
+SELECT 'Satyr'
+UNION
+SELECT 'Unicorn'
+UNION
+SELECT 'Lakin'
+UNION
+SELECT 'Plando'
+UNION
+SELECT 'Karik'
+UNION
+SELECT 'Carinkain'
+UNION
+SELECT 'Mirror'
+UNION
+SELECT 'Halingka'
+UNION
+SELECT 'Yintzu'
+UNION
+SELECT 'Paliote'
+UNION
+SELECT 'Hamrut'
+UNION
+SELECT 'Kranrot'
+UNION
+SELECT 'Gamlin'
+UNION
+SELECT 'Leogul'
+UNION
+SELECT 'Deprive'
+UNION
+SELECT 'Farcran'
+UNION
+SELECT 'Kadios'
+UNION
+SELECT 'Trives'
+UNION
+SELECT 'Falibati'
+UNION
+SELECT 'Tairim'
+UNION
+SELECT 'Tulben'
+UNION
+SELECT 'Howler'
+UNION
+SELECT 'Gigantiops'
+UNION
+SELECT 'Roxide'
+UNION
+SELECT 'Snipe'
+UNION
+SELECT 'Talakin'
+UNION
+SELECT 'Pytan'
+UNION
+SELECT 'Barif'
+UNION
+SELECT 'Lienrik'
+UNION
+SELECT 'Rakul'
+UNION
+SELECT 'Crokian'
+UNION
+SELECT 'Dailaon'
+UNION
+SELECT 'Farhite'
+UNION
+SELECT 'Nos'
+UNION
+SELECT 'Crendion'
+UNION
+SELECT 'Mardian'
+UNION
+SELECT 'Musveren'
+UNION
+SELECT 'Theeder'
+UNION
+SELECT 'Banshee'
+UNION
+SELECT 'Angel'
+UNION
+SELECT 'Cadeine'
+UNION
+SELECT 'Sanhidro'
+UNION
+SELECT 'Connabi'
+UNION
+SELECT 'Bartal'
+UNION
+SELECT 'Luminun'
+UNION
+SELECT 'Innersen'
+UNION
+SELECT 'Pobby'
+UNION
+SELECT 'Binder'
+UNION
+SELECT 'Sairon'
+UNION
+SELECT 'Lageos'
+UNION
+SELECT 'Pageos'
+UNION
+SELECT 'Catherok'
+UNION
+SELECT 'Shindebarn'
+UNION
+SELECT 'Ossiud'
+UNION
+SELECT 'Liangma'
+UNION
+SELECT 'Kookaburra'
+UNION
+SELECT 'Antelope'
+UNION
+SELECT 'Bandersnatch'
+UNION
+SELECT 'Buffalo'
+UNION
+SELECT 'Grendel'
+UNION
+SELECT 'Homunculus'
+UNION
+SELECT 'Lavasillisk'
+UNION
+SELECT 'Lavasaurus'
+UNION
+SELECT 'Katraxis'
+UNION
+SELECT 'Ustralith'
+UNION
+SELECT 'Ashuras'
+UNION
+SELECT 'Ashkenas'
+UNION
+SELECT 'Abraxion'
+UNION
+SELECT 'Hasturan'
+UNION
+SELECT 'Arimanes'
+UNION
+SELECT 'Atrox'
+UNION
+SELECT 'Panthera'
+UNION
+SELECT 'Pronghorn'
+UNION
+SELECT 'Ursus'
+UNION
+SELECT 'Velociraptor'
+UNION
+SELECT 'Pterosaur'
+UNION
+SELECT 'Ornithomimus'
+UNION
+SELECT 'Deinonychus'
+UNION
+SELECT 'Elroki'
+UNION
+SELECT 'Tyrannosaurus'
+UNION
+SELECT 'Atraiban'
+UNION
+SELECT 'Tirak'
+UNION
+SELECT 'Remmel'
+UNION
+SELECT 'Barion'
+UNION
+SELECT 'Karte'
+UNION
+SELECT 'Verfa'
+UNION
+SELECT 'Rahha'
+UNION
+SELECT 'Kernon'
+UNION
+SELECT 'Taliadon'
+UNION
+SELECT 'Vemsk'
+UNION
+SELECT 'Mercenary'
+UNION
+SELECT 'Korim'
+UNION
+SELECT 'Shacram'
+UNION
+SELECT 'Ikuntai'
+UNION
+SELECT 'Ragraman'
+UNION
+SELECT 'Apepi'
+UNION
+SELECT 'Sebek'
+UNION
+SELECT 'Carnamakos'
+UNION
+SELECT 'Carnabarun'
+UNION
+SELECT 'Carnassiud'
+UNION
+SELECT 'Lilith'
+UNION
+SELECT 'Anakim'
+UNION
+SELECT 'Ember'
+UNION
+SELECT 'Violet'
+UNION
+SELECT 'Kurstin'
+UNION
+SELECT 'Mina'
+UNION
+SELECT 'Dorian'
+UNION
+SELECT 'Anakazel'
+UNION
+SELECT 'Skyla'
+UNION
+SELECT 'Nakondas'
+UNION
+SELECT 'Gorgolos'
+UNION
+SELECT 'Gwindorr'
+UNION
+SELECT 'Uruka'
+UNION
+SELECT 'Core'
+UNION
+SELECT 'Orfen'
+UNION
+SELECT 'Raikel'
+UNION
+SELECT 'Riba'
+UNION
+SELECT 'Antharas'
+UNION
+SELECT 'Baium'
+UNION
+SELECT 'Archangel'
+UNION
+SELECT 'Zaken'
+UNION
+SELECT 'Valakas'
+UNION
+SELECT 'Frintezza'
+UNION
+SELECT 'Benom'
+UNION
+SELECT 'Sailren'
+UNION
+SELECT 'Gordon'
+UNION
+SELECT 'Mimic'
+UNION
+SELECT 'Victim'
+UNION
+SELECT 'Sprigant'
+UNION
+SELECT 'Nerkas'
+UNION
+SELECT 'Kirunak'
+UNION
+SELECT 'Merkenis'
+UNION
+SELECT 'Tamil'
+UNION
+SELECT 'Calpico'
+UNION
+SELECT 'Sumi'
+UNION
+SELECT 'Wanuk'
+UNION
+SELECT 'Chewba'
+UNION
+SELECT 'Heitafu'
+UNION
+SELECT 'Picubo'
+UNION
+SELECT 'Bumbum'
+UNION
+SELECT 'Minsku'
+UNION
+SELECT 'Chuchu'
+UNION
+SELECT 'Zakan'
+UNION
+SELECT 'Uoph'
+UNION
+SELECT 'Kracha'
+UNION
+SELECT 'Batoh'
+UNION
+SELECT 'Tanukia'
+UNION
+SELECT 'Turel'
+UNION
+SELECT 'Roko'
+UNION
+SELECT 'Kamut'
+UNION
+SELECT 'Murtika'
+UNION
+SELECT 'Shyslassys'
+UNION
+SELECT 'Gorr'
+UNION
+SELECT 'Baraham'
+UNION
+SELECT 'Nahir'
+UNION
+SELECT 'Aruraune'
+UNION
+SELECT 'Tatoma'
+UNION
+SELECT 'Grima'
+UNION
+SELECT 'Bonaparterius'
+UNION
+SELECT 'Ramsebalius'
+UNION
+SELECT 'Malcom'
+UNION
+SELECT 'Lector'
+UNION
+SELECT 'Jackson'
+UNION
+SELECT 'Silvia'
+UNION
+SELECT 'Katerina'
+UNION
+SELECT 'Wilford'
+UNION
+SELECT 'Roxxy'
+UNION
+SELECT 'Roien'
+UNION
+SELECT 'Auron'
+UNION
+SELECT 'Celma'
+UNION
+SELECT 'Gallint'
+UNION
+SELECT 'Zigaunt'
+UNION
+SELECT 'Bitz'
+UNION
+SELECT 'Gwinter'
+UNION
+SELECT 'Pintage'
+UNION
+SELECT 'Minia'
+UNION
+SELECT 'Vivyan'
+UNION
+SELECT 'Biotin'
+UNION
+SELECT 'Yohanes'
+UNION
+SELECT 'Baulro'
+UNION
+SELECT 'Iris'
+UNION
+SELECT 'Harrys'
+UNION
+SELECT 'Petron'
+UNION
+SELECT 'Levian'
+UNION
+SELECT 'Gilbert'
+UNION
+SELECT 'Leon'
+UNION
+SELECT 'Arnold'
+UNION
+SELECT 'Abellos'
+UNION
+SELECT 'Johnstone'
+UNION
+SELECT 'Chiperan'
+UNION
+SELECT 'Kenyos'
+UNION
+SELECT 'Hanks'
+UNION
+SELECT 'Firon'
+UNION
+SELECT 'Darin'
+UNION
+SELECT 'Bonnie'
+UNION
+SELECT 'Elias'
+UNION
+SELECT 'Cristel'
+UNION
+SELECT 'Rant'
+UNION
+SELECT 'Rolfe'
+UNION
+SELECT 'Aldo'
+UNION
+SELECT 'Holvas'
+UNION
+SELECT 'Trisha'
+UNION
+SELECT 'Sabrin'
+UNION
+SELECT 'Casey'
+UNION
+SELECT 'Sonia'
+UNION
+SELECT 'Lara'
+UNION
+SELECT 'Terry'
+UNION
+SELECT 'Arnelle'
+UNION
+SELECT 'Pabris'
+UNION
+SELECT 'Glyvka'
+UNION
+SELECT 'Shegfield'
+UNION
+SELECT 'Rollant'
+UNION
+SELECT 'Sylvain'
+UNION
+SELECT 'Lucas'
+UNION
+SELECT 'Metty'
+UNION
+SELECT 'Jacob'
+UNION
+SELECT 'Harlan'
+UNION
+SELECT 'Xaber'
+UNION
+SELECT 'Liam'
+UNION
+SELECT 'Pano'
+UNION
+SELECT 'Barder'
+UNION
+SELECT 'Clarissa'
+UNION
+SELECT 'Helvetia'
+UNION
+SELECT 'Denkus'
+UNION
+SELECT 'Pochi'
+UNION
+SELECT 'Graham'
+UNION
+SELECT 'Stanford'
+UNION
+SELECT 'Taurin'
+UNION
+SELECT 'Peta'
+UNION
+SELECT 'Radia'
+UNION
+SELECT 'Sandra'
+UNION
+SELECT 'Ellie'
+UNION
+SELECT 'Collob'
+UNION
+SELECT 'Groot'
+UNION
+SELECT 'Gentler'
+UNION
+SELECT 'Randolf'
+UNION
+SELECT 'Galladucci'
+UNION
+SELECT 'Alexandria'
+UNION
+SELECT 'Valkon'
+UNION
+SELECT 'Parman'
+UNION
+SELECT 'Genwitter'
+UNION
+SELECT 'Dufner'
+UNION
+SELECT 'Goldian'
+UNION
+SELECT 'Macken'
+UNION
+SELECT 'Hannavalt'
+UNION
+SELECT 'Iker'
+UNION
+SELECT 'Dieter'
+UNION
+SELECT 'Maurius'
+UNION
+SELECT 'Juris'
+UNION
+SELECT 'Roa'
+UNION
+SELECT 'Jurek'
+UNION
+SELECT 'Dustin'
+UNION
+SELECT 'Primos'
+UNION
+SELECT 'Pupina'
+UNION
+SELECT 'Isabellin'
+UNION
+SELECT 'Maximilian'
+UNION
+SELECT 'Jeronin'
+UNION
+SELECT 'Bane'
+UNION
+SELECT 'Vesa'
+UNION
+SELECT 'Zerome'
+UNION
+SELECT 'Belton'
+UNION
+SELECT 'Rath'
+UNION
+SELECT 'Atanas'
+UNION
+SELECT 'Mitraell'
+UNION
+SELECT 'Undrias'
+UNION
+SELECT 'Cecktinon'
+UNION
+SELECT 'Kartia'
+UNION
+SELECT 'Jasmine'
+UNION
+SELECT 'Iria'
+UNION
+SELECT 'Payne'
+UNION
+SELECT 'Vollodos'
+UNION
+SELECT 'Minaless'
+UNION
+SELECT 'Dorankus'
+UNION
+SELECT 'Erviante'
+UNION
+SELECT 'Talloth'
+UNION
+SELECT 'Trudy'
+UNION
+SELECT 'Harne'
+UNION
+SELECT 'Vlasty'
+UNION
+SELECT 'Mirabel'
+UNION
+SELECT 'Unoren'
+UNION
+SELECT 'Ariel'
+UNION
+SELECT 'Creamees'
+UNION
+SELECT 'Herbiel'
+UNION
+SELECT 'Chad'
+UNION
+SELECT 'Julia'
+UNION
+SELECT 'Markius'
+UNION
+SELECT 'Asterios'
+UNION
+SELECT 'Ellenia'
+UNION
+SELECT 'Cobendell'
+UNION
+SELECT 'Greenis'
+UNION
+SELECT 'Esrandell'
+UNION
+SELECT 'Karin'
+UNION
+SELECT 'Rex'
+UNION
+SELECT 'Ian'
+UNION
+SELECT 'Ralford'
+UNION
+SELECT 'Wesley'
+UNION
+SELECT 'Marty'
+UNION
+SELECT 'Radic'
+UNION
+SELECT 'Galios'
+UNION
+SELECT 'Arkenias'
+UNION
+SELECT 'Fairen'
+UNION
+SELECT 'Valleria'
+UNION
+SELECT 'Valentina'
+UNION
+SELECT 'Zenkin'
+UNION
+SELECT 'Raudia'
+UNION
+SELECT 'Sara'
+UNION
+SELECT 'Galibredo'
+UNION
+SELECT 'Cliff'
+UNION
+SELECT 'Hagger'
+UNION
+SELECT 'Rigol'
+UNION
+SELECT 'Bhan'
+UNION
+SELECT 'Vadin'
+UNION
+SELECT 'Rovia'
+UNION
+SELECT 'Phanovia'
+UNION
+SELECT 'Hollint'
+UNION
+SELECT 'Darya'
+UNION
+SELECT 'Gideon'
+UNION
+SELECT 'Brecson'
+UNION
+SELECT 'Mouen'
+UNION
+SELECT 'Hector'
+UNION
+SELECT 'Jerin'
+UNION
+SELECT 'Yates'
+UNION
+SELECT 'Stan'
+UNION
+SELECT 'Pinaps'
+UNION
+SELECT 'Arodin'
+UNION
+SELECT 'Damion'
+UNION
+SELECT 'Colleen'
+UNION
+SELECT 'Norman'
+UNION
+SELECT 'Wheeler'
+UNION
+SELECT 'Berros'
+UNION
+SELECT 'Kendell'
+UNION
+SELECT 'Veltress'
+UNION
+SELECT 'Starden'
+UNION
+SELECT 'Rayen'
+UNION
+SELECT 'Alshupes'
+UNION
+SELECT 'Arujien'
+UNION
+SELECT 'Rayla'
+UNION
+SELECT 'Edroc'
+UNION
+SELECT 'Garette'
+UNION
+SELECT 'Sorint'
+UNION
+SELECT 'Esmeralda'
+UNION
+SELECT 'Simplon'
+UNION
+SELECT 'Harmony'
+UNION
+SELECT 'Haprock'
+UNION
+SELECT 'Bella'
+UNION
+SELECT 'Altran'
+UNION
+SELECT 'Alberius'
+UNION
+SELECT 'Gartrandell'
+UNION
+SELECT 'Rains'
+UNION
+SELECT 'Raymond'
+UNION
+SELECT 'Xenos'
+UNION
+SELECT 'Alex'
+UNION
+SELECT 'Manuel'
+UNION
+SELECT 'Varan'
+UNION
+SELECT 'Tobias'
+UNION
+SELECT 'Pinter'
+UNION
+SELECT 'Pushkin'
+UNION
+SELECT 'Hally'
+UNION
+SELECT 'Vellior'
+UNION
+SELECT 'Karrod'
+UNION
+SELECT 'Rockswell'
+UNION
+SELECT 'Asha'
+UNION
+SELECT 'Nestle'
+UNION
+SELECT 'Poesia'
+UNION
+SELECT 'Raut'
+UNION
+SELECT 'Kluto'
+UNION
+SELECT 'Richlin'
+UNION
+SELECT 'Sydnia'
+UNION
+SELECT 'Ballin'
+UNION
+SELECT 'Audiberti'
+UNION
+SELECT 'Leona'
+UNION
+SELECT 'Sorius'
+UNION
+SELECT 'Reisa'
+UNION
+SELECT 'Virgil'
+UNION
+SELECT 'Sidra'
+UNION
+SELECT 'Thoma'
+UNION
+SELECT 'Bathis'
+UNION
+SELECT 'Praga'
+UNION
+SELECT 'Babenco'
+UNION
+SELECT 'Brynn'
+UNION
+SELECT 'Curtis'
+UNION
+SELECT 'Moretti'
+UNION
+SELECT 'Melville'
+UNION
+SELECT 'Varsak'
+UNION
+SELECT 'Rohmer'
+UNION
+SELECT 'Ramoniell'
+UNION
+SELECT 'Kayleen'
+UNION
+SELECT 'Marion'
+UNION
+SELECT 'Nelsya'
+UNION
+SELECT 'Jenna'
+UNION
+SELECT 'Carlon'
+UNION
+SELECT 'Astaron'
+UNION
+SELECT 'Karina'
+UNION
+SELECT 'Jughead'
+UNION
+SELECT 'Jewel'
+UNION
+SELECT 'Roselyn'
+UNION
+SELECT 'Altima'
+UNION
+SELECT 'Kristin'
+UNION
+SELECT 'Thifiell'
+UNION
+SELECT 'Kaitar'
+UNION
+SELECT 'Harant'
+UNION
+SELECT 'Rizraell'
+UNION
+SELECT 'Andellia'
+UNION
+SELECT 'Aios'
+UNION
+SELECT 'Baenedes'
+UNION
+SELECT 'Nerupa'
+UNION
+SELECT 'Thalia'
+UNION
+SELECT 'Ramos'
+UNION
+SELECT 'Rhodiell'
+UNION
+SELECT 'Adonius'
+UNION
+SELECT 'Nell'
+UNION
+SELECT 'Talbot'
+UNION
+SELECT 'Estella'
+UNION
+SELECT 'Bezique'
+UNION
+SELECT 'Plink'
+UNION
+SELECT 'Alvah'
+UNION
+SELECT 'Leikan'
+UNION
+SELECT 'Scott'
+UNION
+SELECT 'Linus'
+UNION
+SELECT 'Weisz'
+UNION
+SELECT 'Luis'
+UNION
+SELECT 'Clancy'
+UNION
+SELECT 'Parina'
+UNION
+SELECT 'Marius'
+UNION
+SELECT 'Matheo'
+UNION
+SELECT 'Mesella'
+UNION
+SELECT 'Lionel'
+UNION
+SELECT 'Rosella'
+UNION
+SELECT 'Charkeren'
+UNION
+SELECT 'Triskel'
+UNION
+SELECT 'Annika'
+UNION
+SELECT 'Arkenia'
+UNION
+SELECT 'Tyra'
+UNION
+SELECT 'Varika'
+UNION
+SELECT 'Kalinta'
+UNION
+SELECT 'Northwind'
+UNION
+SELECT 'Allana'
+UNION
+SELECT 'Neti'
+UNION
+SELECT 'Prias'
+UNION
+SELECT 'Siff'
+UNION
+SELECT 'Perrin'
+UNION
+SELECT 'Tiramisa'
+UNION
+SELECT 'Trionell'
+UNION
+SELECT 'Eriel'
+UNION
+SELECT 'Irene'
+UNION
+SELECT 'Kathaway'
+UNION
+SELECT 'Samed'
+UNION
+SELECT 'Leopold'
+UNION
+SELECT 'Sarien'
+UNION
+SELECT 'Rolento'
+UNION
+SELECT 'Kurt'
+UNION
+SELECT 'Poitan'
+UNION
+SELECT 'Wandius'
+UNION
+SELECT 'Cardien'
+UNION
+SELECT 'Mirien'
+UNION
+SELECT 'Tronix'
+UNION
+SELECT 'Ixia'
+UNION
+SELECT 'Clayton'
+UNION
+SELECT 'Herven'
+UNION
+SELECT 'Bright'
+UNION
+SELECT 'Jonas'
+UNION
+SELECT 'Rupio'
+UNION
+SELECT 'Rosheria'
+UNION
+SELECT 'Bandellos'
+UNION
+SELECT 'Angus'
+UNION
+SELECT 'Stapin'
+UNION
+SELECT 'Kaira'
+UNION
+SELECT 'Reikin'
+UNION
+SELECT 'Mozella'
+UNION
+SELECT 'Ponti'
+UNION
+SELECT 'Capella'
+UNION
+SELECT 'Hanna'
+UNION
+SELECT 'Penelope'
+UNION
+SELECT 'Edmond'
+UNION
+SELECT 'Moke'
+UNION
+SELECT 'Tapoy'
+UNION
+SELECT 'Osborn'
+UNION
+SELECT 'Kasman'
+UNION
+SELECT 'Umos'
+UNION
+SELECT 'Rikadio'
+UNION
+SELECT 'Mendio'
+UNION
+SELECT 'Drikus'
+UNION
+SELECT 'Buka'
+UNION
+SELECT 'Racoy'
+UNION
+SELECT 'Castor'
+UNION
+SELECT 'Dowki'
+UNION
+SELECT 'Somak'
+UNION
+SELECT 'Gesto'
+UNION
+SELECT 'Kusto'
+UNION
+SELECT 'Penatus'
+UNION
+SELECT 'Vokian'
+UNION
+SELECT 'Manakia'
+UNION
+SELECT 'Reep'
+UNION
+SELECT 'Shari'
+UNION
+SELECT 'Garita'
+UNION
+SELECT 'Mion'
+UNION
+SELECT 'Reed'
+UNION
+SELECT 'Murdoc'
+UNION
+SELECT 'Airy'
+UNION
+SELECT 'Gouph'
+UNION
+SELECT 'Pippi'
+UNION
+SELECT 'Bronk'
+UNION
+SELECT 'Brunon'
+UNION
+SELECT 'Silvera'
+UNION
+SELECT 'Laferon'
+UNION
+SELECT 'Maron'
+UNION
+SELECT 'Lockirin'
+UNION
+SELECT 'Spiron'
+UNION
+SELECT 'Balanki'
+UNION
+SELECT 'Keef'
+UNION
+SELECT 'Filaur'
+UNION
+SELECT 'Arin'
+UNION
+SELECT 'Daichir'
+UNION
+SELECT 'Zimenf'
+UNION
+SELECT 'Chichirin'
+UNION
+SELECT 'Wirphy'
+UNION
+SELECT 'Paion'
+UNION
+SELECT 'Runant'
+UNION
+SELECT 'Ethan'
+UNION
+SELECT 'Cromwell'
+UNION
+SELECT 'Proton'
+UNION
+SELECT 'Dinkey'
+UNION
+SELECT 'Tardyon'
+UNION
+SELECT 'Nathan'
+UNION
+SELECT 'Bolter'
+UNION
+SELECT 'Torocco'
+UNION
+SELECT 'Toma'
+UNION
+SELECT 'Torai'
+UNION
+SELECT 'Jakal'
+UNION
+SELECT 'Kunai'
+UNION
+SELECT 'Uska'
+UNION
+SELECT 'Papuma'
+UNION
+SELECT 'Grookin'
+UNION
+SELECT 'Imantu'
+UNION
+SELECT 'Sumari'
+UNION
+SELECT 'Kakai'
+UNION
+SELECT 'Varkees'
+UNION
+SELECT 'Tantus'
+UNION
+SELECT 'Hatos'
+UNION
+SELECT 'Brukurse'
+UNION
+SELECT 'Karukia'
+UNION
+SELECT 'Tanapi'
+UNION
+SELECT 'Livina'
+UNION
+SELECT 'Vulkus'
+UNION
+SELECT 'Rukain'
+UNION
+SELECT 'Nakusin'
+UNION
+SELECT 'Tamai'
+UNION
+SELECT 'Parugon'
+UNION
+SELECT 'Orinak'
+UNION
+SELECT 'Tiku'
+UNION
+SELECT 'Petukai'
+UNION
+SELECT 'Vapook'
+UNION
+SELECT 'Rosheek'
+UNION
+SELECT 'Toruku'
+UNION
+SELECT 'Ranspo'
+UNION
+SELECT 'Opix'
+UNION
+SELECT 'Harkel'
+UNION
+SELECT 'Piotur'
+UNION
+SELECT 'Maria'
+UNION
+SELECT 'Creta'
+UNION
+SELECT 'Cronos'
+UNION
+SELECT 'Triff'
+UNION
+SELECT 'Casian'
+UNION
+SELECT 'Metheus'
+UNION
+SELECT 'Voltar'
+UNION
+SELECT 'Kepra'
+UNION
+SELECT 'Burai'
+UNION
+SELECT 'Harak'
+UNION
+SELECT 'Driko'
+UNION
+SELECT 'Emily'
+UNION
+SELECT 'Nikola'
+UNION
+SELECT 'Kaien'
+UNION
+SELECT 'Ascalon'
+UNION
+SELECT 'Mason'
+UNION
+SELECT 'Hamil'
+UNION
+SELECT 'Tree'
+UNION
+SELECT 'Rukal'
+UNION
+SELECT 'Orim'
+UNION
+SELECT 'Roderik'
+UNION
+SELECT 'Endrigo'
+UNION
+SELECT 'Evert'
+UNION
+SELECT 'Galatea'
+UNION
+SELECT 'Almors'
+UNION
+SELECT 'Camoniell'
+UNION
+SELECT 'Belthus'
+UNION
+SELECT 'Basilla'
+UNION
+SELECT 'Celestiel'
+UNION
+SELECT 'Brynthea'
+UNION
+SELECT 'Takuna'
+UNION
+SELECT 'Chianta'
+UNION
+SELECT 'Kash'
+UNION
+SELECT 'Martien'
+UNION
+SELECT 'Raldo'
+UNION
+SELECT 'Santiago'
+UNION
+SELECT 'Gerald'
+UNION
+SELECT 'Dorf'
+UNION
+SELECT 'Uruha'
+UNION
+SELECT 'Seresin'
+UNION
+SELECT 'Gupu'
+UNION
+SELECT 'Kristina'
+UNION
+SELECT 'Sla'
+UNION
+SELECT 'Ramus'
+UNION
+SELECT 'Katari'
+UNION
+SELECT 'Kakan'
+UNION
+SELECT 'Nyakuri'
+UNION
+SELECT 'Croto'
+UNION
+SELECT 'Dubabah'
+UNION
+SELECT 'Lorain'
+UNION
+SELECT 'Croop'
+UNION
+SELECT 'Flutter'
+UNION
+SELECT 'Helton'
+UNION
+SELECT 'Roameria'
+UNION
+SELECT 'Egnos'
+UNION
+SELECT 'Karia'
+UNION
+SELECT 'Pekiron'
+UNION
+SELECT 'Daunt'
+UNION
+SELECT 'Viktor'
+UNION
+SELECT 'Baxt'
+UNION
+SELECT 'Silva'
+UNION
+SELECT 'Vergara'
+UNION
+SELECT 'Duning'
+UNION
+SELECT 'Siria'
+UNION
+SELECT 'Luther'
+UNION
+SELECT 'Stedmiel'
+UNION
+SELECT 'Queenien'
+UNION
+SELECT 'Scraide'
+UNION
+SELECT 'Moses'
+UNION
+SELECT 'Page'
+UNION
+SELECT 'Videlrien'
+UNION
+SELECT 'Evelyn'
+UNION
+SELECT 'Medown'
+UNION
+SELECT 'Prestan'
+UNION
+SELECT 'Errickin'
+UNION
+SELECT 'Bernard'
+UNION
+SELECT 'Colin'
+UNION
+SELECT 'Garvarentz'
+UNION
+SELECT 'Chakiris'
+UNION
+SELECT 'Lazenby'
+UNION
+SELECT 'Raigen'
+UNION
+SELECT 'Nasign'
+UNION
+SELECT 'Norton'
+UNION
+SELECT 'Weston'
+UNION
+SELECT 'Byron'
+UNION
+SELECT 'Makhis'
+UNION
+SELECT 'Gardner'
+UNION
+SELECT 'Paros'
+UNION
+SELECT 'Marina'
+UNION
+SELECT 'Cecile'
+UNION
+SELECT 'Gauen'
+UNION
+SELECT 'Joan'
+UNION
+SELECT 'Mariell'
+UNION
+SELECT 'Kaiena'
+UNION
+SELECT 'Ladd'
+UNION
+SELECT 'Merian'
+UNION
+SELECT 'Roy'
+UNION
+SELECT 'Tavillian'
+UNION
+SELECT 'Yening'
+UNION
+SELECT 'Tebose'
+UNION
+SELECT 'Verona'
+UNION
+SELECT 'Leirynn'
+UNION
+SELECT 'Borys'
+UNION
+SELECT 'Jax'
+UNION
+SELECT 'Martin'
+UNION
+SELECT 'Guard'
+UNION
+SELECT 'Sophya'
+UNION
+SELECT 'Redfoot'
+UNION
+SELECT 'Morgan'
+UNION
+SELECT 'Matild'
+UNION
+SELECT 'Keltir'
+UNION
+SELECT 'Toad'
+UNION
+SELECT 'Rupina'
+UNION
+SELECT 'Grey'
+UNION
+SELECT 'Tor'
+UNION
+SELECT 'Cybellin'
+UNION
+SELECT 'Mimyu'
+UNION
+SELECT 'Exarion'
+UNION
+SELECT 'Zwov'
+UNION
+SELECT 'Kalibran'
+UNION
+SELECT 'Suzet'
+UNION
+SELECT 'Shamhai'
+UNION
+SELECT 'Gabrielle'
+UNION
+SELECT 'Gilmore'
+UNION
+SELECT 'Theodric'
+UNION
+SELECT 'Athrea'
+UNION
+SELECT 'Kalis'
+UNION
+SELECT 'Balthazar'
+UNION
+SELECT 'Cleo'
+UNION
+SELECT 'Auctioneer'
+UNION
+SELECT 'Wilson'
+UNION
+SELECT 'Todd'
+UNION
+SELECT 'Lundy'
+UNION
+SELECT 'Waters'
+UNION
+SELECT 'Cooper'
+UNION
+SELECT 'Joey'
+UNION
+SELECT 'Nelson'
+UNION
+SELECT 'Hardin'
+UNION
+SELECT 'Kaspar'
+UNION
+SELECT 'Cema'
+UNION
+SELECT 'Icarus'
+UNION
+SELECT 'Minerva'
+UNION
+SELECT 'Woodrow'
+UNION
+SELECT 'Woodley'
+UNION
+SELECT 'Holly'
+UNION
+SELECT 'Lorenzo'
+UNION
+SELECT 'Carson'
+UNION
+SELECT 'Alexis'
+UNION
+SELECT 'Romp'
+UNION
+SELECT 'Walderal'
+UNION
+SELECT 'Klump'
+UNION
+SELECT 'Wilbert'
+UNION
+SELECT 'Ferris'
+UNION
+SELECT 'Elisa'
+UNION
+SELECT 'Sedrick'
+UNION
+SELECT 'Aiken'
+UNION
+SELECT 'Kendra'
+UNION
+SELECT 'Sinden'
+UNION
+SELECT 'Raien'
+UNION
+SELECT 'Drikiyan'
+UNION
+SELECT 'Desmond'
+UNION
+SELECT 'Winonin'
+UNION
+SELECT 'Orven'
+UNION
+SELECT 'Ross'
+UNION
+SELECT 'Flownia'
+UNION
+SELECT 'Leonard'
+UNION
+SELECT 'Oltlin'
+UNION
+SELECT 'Ghest'
+UNION
+SELECT 'Hanellin'
+UNION
+SELECT 'Ladanza'
+UNION
+SELECT 'Marestella'
+UNION
+SELECT 'Reva'
+UNION
+SELECT 'Lemper'
+UNION
+SELECT 'Kurtiz'
+UNION
+SELECT 'Bret'
+UNION
+SELECT 'Conroy'
+UNION
+SELECT 'Coleman'
+UNION
+SELECT 'Aldis'
+UNION
+SELECT 'Carlton'
+UNION
+SELECT 'Eastan'
+UNION
+SELECT 'Grayson'
+UNION
+SELECT 'Angelina'
+UNION
+SELECT 'Felton'
+UNION
+SELECT 'Sanders'
+UNION
+SELECT 'Espen'
+UNION
+SELECT 'Enverun'
+UNION
+SELECT 'Payel'
+UNION
+SELECT 'Natools'
+UNION
+SELECT 'Kluck'
+UNION
+SELECT 'Mia'
+UNION
+SELECT 'Roman'
+UNION
+SELECT 'Morning'
+UNION
+SELECT 'Flauen'
+UNION
+SELECT 'Marcus'
+UNION
+SELECT 'Arti'
+UNION
+SELECT 'Karuna'
+UNION
+SELECT 'Traus'
+UNION
+SELECT 'Naiel'
+UNION
+SELECT 'Squillari'
+UNION
+SELECT 'Ranton'
+UNION
+SELECT 'Minevia'
+UNION
+SELECT 'Tanios'
+UNION
+SELECT 'Anabel'
+UNION
+SELECT 'Xairakin'
+UNION
+SELECT 'Brikus'
+UNION
+SELECT 'Xenovia'
+UNION
+SELECT 'Tushku'
+UNION
+SELECT 'Sorbo'
+UNION
+SELECT 'Takina'
+UNION
+SELECT 'Gosta'
+UNION
+SELECT 'Dupuis'
+UNION
+SELECT 'Kent'
+UNION
+SELECT 'Rodic'
+UNION
+SELECT 'Kraisen'
+UNION
+SELECT 'Timos'
+UNION
+SELECT 'Cage'
+UNION
+SELECT 'Dunst'
+UNION
+SELECT 'Nedy'
+UNION
+SELECT 'Morelyn'
+UNION
+SELECT 'Restina'
+UNION
+SELECT 'Alicia'
+UNION
+SELECT 'Fenster'
+UNION
+SELECT 'Patrin'
+UNION
+SELECT 'Rogent'
+UNION
+SELECT 'Bentley'
+UNION
+SELECT 'Benica'
+UNION
+SELECT 'Braki'
+UNION
+SELECT 'Marsha'
+UNION
+SELECT 'Trumpin'
+UNION
+SELECT 'Malcom1'
+UNION
+SELECT 'Malcom2'
+UNION
+SELECT 'Malcom3'
+UNION
+SELECT 'Malcom4'
+UNION
+SELECT 'Malcom5'
+UNION
+SELECT 'Malcom6'
+UNION
+SELECT 'Malcom7'
+UNION
+SELECT 'Malcom8'
+UNION
+SELECT 'Malcom9'
+UNION
+SELECT 'Malcom10'
+UNION
+SELECT 'Rerikya'
+UNION
+SELECT 'Meridien'
+UNION
+SELECT 'Keplon'
+UNION
+SELECT 'Euclie'
+UNION
+SELECT 'Pithgon'
+UNION
+SELECT 'Nanarin'
+UNION
+SELECT 'Swan'
+UNION
+SELECT 'Galion'
+UNION
+SELECT 'Barbado'
+UNION
+SELECT 'Jennifer'
+UNION
+SELECT 'Dorothy'
+UNION
+SELECT 'Orpheus'
+UNION
+SELECT 'Oliver'
+UNION
+SELECT 'Clarine'
+UNION
+SELECT 'Verce'
+UNION
+SELECT 'Reorin'
+UNION
+SELECT 'Everlasting'
+UNION
+SELECT 'Shortcut'
+UNION
+SELECT 'Albatross'
+UNION
+SELECT 'Sentinel'
+UNION
+SELECT 'Sentry'
+UNION
+SELECT 'Defender'
+UNION
+SELECT 'Centurion'
+UNION
+SELECT 'Kantabilon'
+UNION
+SELECT 'Octavia'
+UNION
+SELECT 'Galman'
+UNION
+SELECT 'Kitzka'
+UNION
+SELECT 'Marsden'
+UNION
+SELECT 'Kell'
+UNION
+SELECT 'McDermott'
+UNION
+SELECT 'Pepper'
+UNION
+SELECT 'Thora'
+UNION
+SELECT 'Keach'
+UNION
+SELECT 'Heid'
+UNION
+SELECT 'Kidder'
+UNION
+SELECT 'Rood'
+UNION
+SELECT 'Sobling'
+UNION
+SELECT 'Maximus'
+UNION
+SELECT 'Georgio'
+UNION
+SELECT 'Katz'
+UNION
+SELECT 'Sardinia'
+UNION
+SELECT 'Veronica'
+UNION
+SELECT 'Helmut'
+UNION
+SELECT 'Janne'
+UNION
+SELECT 'Judith'
+UNION
+SELECT 'Renee'
+UNION
+SELECT 'Rupert'
+UNION
+SELECT 'Liesel'
+UNION
+SELECT 'Olsun'
+UNION
+SELECT 'Annette'
+UNION
+SELECT 'Kaiser'
+UNION
+SELECT 'Lietta'
+UNION
+SELECT 'Hakon'
+UNION
+SELECT 'Mona'
+UNION
+SELECT 'Stefano'
+UNION
+SELECT 'Hilda'
+UNION
+SELECT 'Noel'
+UNION
+SELECT 'Borodin'
+UNION
+SELECT 'Fundin'
+UNION
+SELECT 'Tatiana'
+UNION
+SELECT 'Bernhard'
+UNION
+SELECT 'Felix'
+UNION
+SELECT 'Bronwyn'
+UNION
+SELECT 'Gregory'
+UNION
+SELECT 'Bastian'
+UNION
+SELECT 'Cerenas'
+UNION
+SELECT 'Justin'
+UNION
+SELECT 'Alminas'
+UNION
+SELECT 'Elena'
+UNION
+SELECT 'Samael'
+UNION
+SELECT 'Drakon'
+UNION
+SELECT 'Kamilen'
+UNION
+SELECT 'Aklan'
+UNION
+SELECT 'Lakan'
+UNION
+SELECT 'Skahi'
+UNION
+SELECT 'Terava'
+UNION
+SELECT 'Andrei'
+UNION
+SELECT 'Gunter'
+UNION
+SELECT 'Sven'
+UNION
+SELECT 'Henrik'
+UNION
+SELECT 'Cadmon'
+UNION
+SELECT 'Bayard'
+UNION
+SELECT 'Ulrich'
+UNION
+SELECT 'Eugen'
+UNION
+SELECT 'Drumond'
+UNION
+SELECT 'Nils'
+UNION
+SELECT 'Vladimir'
+UNION
+SELECT 'Alisha'
+UNION
+SELECT 'Astrid'
+UNION
+SELECT 'Candice'
+UNION
+SELECT 'Natasha'
+UNION
+SELECT 'Weber'
+UNION
+SELECT 'Achim'
+UNION
+SELECT 'Woods'
+UNION
+SELECT 'Rafael'
+UNION
+SELECT 'Hugin'
+UNION
+SELECT 'Durin'
+UNION
+SELECT 'Lunin'
+UNION
+SELECT 'Donal'
+UNION
+SELECT 'Daisy'
+UNION
+SELECT 'Vincenz'
+UNION
+SELECT 'Lombert'
+UNION
+SELECT 'Greta'
+UNION
+SELECT 'Hans'
+UNION
+SELECT 'Ilyana'
+UNION
+SELECT 'Siegmund'
+UNION
+SELECT 'Erian'
+UNION
+SELECT 'Beryl'
+UNION
+SELECT 'Andromeda'
+UNION
+SELECT 'Themis'
+UNION
+SELECT 'Lambac'
+UNION
+SELECT 'Tazki'
+UNION
+SELECT 'Innocentin'
+UNION
+SELECT 'Eliyah'
+UNION
+SELECT 'Wagner'
+UNION
+SELECT 'Valdis'
+UNION
+SELECT 'Amelia'
+UNION
+SELECT 'Rumiel'
+UNION
+SELECT 'Tifaren'
+UNION
+SELECT 'Kayan'
+UNION
+SELECT 'Rahorakti'
+UNION
+SELECT 'Mekara'
+UNION
+SELECT 'Anton'
+UNION
+SELECT 'Hakran'
+UNION
+SELECT 'Mathias'
+UNION
+SELECT 'Richtor'
+UNION
+SELECT 'Dimitri'
+UNION
+SELECT 'Bellard'
+UNION
+SELECT 'Schmidt'
+UNION
+SELECT 'Sirius'
+UNION
+SELECT 'Burke'
+UNION
+SELECT 'Agripel'
+UNION
+SELECT 'Benedict'
+UNION
+SELECT 'Dominic'
+UNION
+SELECT 'Volker'
+UNION
+SELECT 'Remy'
+UNION
+SELECT 'Leandro'
+UNION
+SELECT 'Kasiel'
+UNION
+SELECT 'Jaradine'
+UNION
+SELECT 'Alhena'
+UNION
+SELECT 'Kreed'
+UNION
+SELECT 'Tate'
+UNION
+SELECT 'Rogin'
+UNION
+SELECT 'Rokar'
+UNION
+SELECT 'Yakand'
+UNION
+SELECT 'Mikellan'
+UNION
+SELECT 'Mennon'
+UNION
+SELECT 'Wahkan'
+UNION
+SELECT 'Asefa'
+UNION
+SELECT 'Atan'
+UNION
+SELECT 'Jaff'
+UNION
+SELECT 'Jumara'
+UNION
+SELECT 'Kurfa'
+UNION
+SELECT 'Diyabu'
+UNION
+SELECT 'Hagos'
+UNION
+SELECT 'Shikon'
+UNION
+SELECT 'Antonio'
+UNION
+SELECT 'Lynn'
+UNION
+SELECT 'Triya'
+UNION
+SELECT 'Aren'
+UNION
+SELECT 'Berynel'
+UNION
+SELECT 'Rouke'
+UNION
+SELECT 'Lorel'
+UNION
+SELECT 'Tomanel'
+UNION
+SELECT 'Ratriya'
+UNION
+SELECT 'Migel'
+UNION
+SELECT 'Romas'
+UNION
+SELECT 'Shantra'
+UNION
+SELECT 'Koram'
+UNION
+SELECT 'Jaka'
+UNION
+SELECT 'Urgal'
+UNION
+SELECT 'Shafa'
+UNION
+SELECT 'Shitara'
+UNION
+SELECT 'Donai'
+UNION
+SELECT 'Karai'
+UNION
+SELECT 'Reeya'
+UNION
+SELECT 'Ronaldo'
+UNION
+SELECT 'Shaling'
+UNION
+SELECT 'Daeger'
+UNION
+SELECT 'Dani'
+UNION
+SELECT 'Luka'
+UNION
+SELECT 'Rogen'
+UNION
+SELECT 'Lanna'
+UNION
+SELECT 'Gordo'
+UNION
+SELECT 'Kiki'
+UNION
+SELECT 'Raban'
+UNION
+SELECT 'Cona'
+UNION
+SELECT 'Shutner'
+UNION
+SELECT 'Hierarch'
+UNION
+SELECT 'Enfeux'
+UNION
+SELECT 'Leikar'
+UNION
+SELECT 'Jeremy'
+UNION
+SELECT 'Tombstone'
+UNION
+SELECT 'Well'
+UNION
+SELECT 'Box'
+UNION
+SELECT 'Coffin'
+UNION
+SELECT 'Tunatun'
+UNION
+SELECT 'Vulcan'
+UNION
+SELECT 'Klein'
+UNION
+SELECT 'Pulin'
+UNION
+SELECT 'Naff'
+UNION
+SELECT 'Crocus'
+UNION
+SELECT 'Kuber'
+UNION
+SELECT 'Beolin'
+UNION
+SELECT 'Pierce'
+UNION
+SELECT 'Kahman'
+UNION
+SELECT 'Abercrombie'
+UNION
+SELECT 'Selina'
+UNION
+SELECT 'Klufe'
+UNION
+SELECT 'Perelin'
+UNION
+SELECT 'Mishini'
+UNION
+SELECT 'Ogord'
+UNION
+SELECT 'Ropfi'
+UNION
+SELECT 'Bleaker'
+UNION
+SELECT 'Pamfus'
+UNION
+SELECT 'Cyano'
+UNION
+SELECT 'Lanosco'
+UNION
+SELECT 'Hufs'
+UNION
+SELECT 'Monakan'
+UNION
+SELECT 'Willie'
+UNION
+SELECT 'Litulon'
+UNION
+SELECT 'Berix'
+UNION
+SELECT 'Linnaeus'
+UNION
+SELECT 'Hilgendorf'
+UNION
+SELECT 'Klaus'
+UNION
+SELECT 'Galadrid'
+UNION
+SELECT 'Anastia'
+UNION
+SELECT 'Mordred'
+UNION
+SELECT 'Feynn'
+UNION
+SELECT 'Valentine'
+UNION
+SELECT 'Gedrik'
+UNION
+SELECT 'Agnes'
+UNION
+SELECT 'Telson'
+UNION
+SELECT 'Mond'
+UNION
+SELECT 'Tobald'
+UNION
+SELECT 'Grimst'
+UNION
+SELECT 'Kinsley'
+UNION
+SELECT 'Belinda'
+UNION
+SELECT 'Noctisse'
+UNION
+SELECT 'Radyss'
+UNION
+SELECT 'Hermit'
+UNION
+SELECT 'Keats'
+UNION
+SELECT 'Bavarin'
+UNION
+SELECT 'Donath'
+UNION
+SELECT 'Yeti'
+UNION
+SELECT 'Duncan'
+UNION
+SELECT 'Mist'
+UNION
+SELECT 'Lilly'
+UNION
+SELECT 'Lumen'
+UNION
+SELECT 'Raik'
+UNION
+SELECT 'Tangen'
+UNION
+SELECT 'Onyx'
+UNION
+SELECT 'Burns'
+UNION
+SELECT 'Patrol'
+UNION
+SELECT 'Platis'
+UNION
+SELECT 'Eindarkner'
+UNION
+SELECT 'Arisha'
+UNION
+SELECT 'Stanislava'
+UNION
+SELECT 'Talien'
+UNION
+SELECT 'Caradine'
+UNION
+SELECT 'Ossian'
+UNION
+SELECT 'Kassandra'
+UNION
+SELECT 'Ogmar'
+UNION
+SELECT 'Halaster'
+UNION
+SELECT 'Rafi'
+UNION
+SELECT 'Sonin'
+UNION
+SELECT 'Aracna'
+UNION
+SELECT 'Satyros'
+UNION
+SELECT 'Pan'
+UNION
+SELECT 'Pixy'
+UNION
+SELECT 'Treant'
+UNION
+SELECT 'Gatekeeper'
+UNION
+SELECT 'Auzendorff'
+UNION
+SELECT 'Hombre'
+UNION
+SELECT 'Owaki'
+UNION
+SELECT 'Adrian'
+UNION
+SELECT 'Rouge'
+UNION
+SELECT 'Mailland'
+UNION
+SELECT 'Jose'
+UNION
+SELECT 'Pele'
+UNION
+SELECT 'Rankar'
+UNION
+SELECT 'Saroyan'
+UNION
+SELECT 'Ruby'
+UNION
+SELECT 'Rydel'
+UNION
+SELECT 'Cherbal'
+UNION
+SELECT 'Yasheni'
+UNION
+SELECT 'Axel'
+UNION
+SELECT 'Newyear'
+UNION
+SELECT 'Altair'
+UNION
+SELECT 'Hitchi'
+UNION
+SELECT 'Bilia'
+UNION
+SELECT 'Karamon'
+UNION
+SELECT 'Euline'
+UNION
+SELECT 'Baryl'
+UNION
+SELECT 'Sinis'
+UNION
+SELECT 'Otillo'
+UNION
+SELECT 'Atraxia'
+UNION
+SELECT 'Raheel'
+UNION
+SELECT 'Drizzit'
+UNION
+SELECT 'Aerina'
+UNION
+SELECT 'Talia'
+UNION
+SELECT 'Shaka'
+UNION
+SELECT 'Tazeer'
+UNION
+SELECT 'Moira'
+UNION
+SELECT 'Rumba'
+UNION
+SELECT 'Vishotsky'
+UNION
+SELECT 'Glen'
+UNION
+SELECT 'Friggar'
+UNION
+SELECT 'Sherring'
+UNION
+SELECT 'Kosmos'
+UNION
+SELECT 'Erstack'
+UNION
+SELECT 'Gotter'
+UNION
+SELECT 'Singa'
+UNION
+SELECT 'Batidae'
+UNION
+SELECT 'Siger'
+UNION
+SELECT 'Javier'
+UNION
+SELECT 'Galba'
+UNION
+SELECT 'Gremory'
+UNION
+SELECT 'Devorin'
+UNION
+SELECT 'Flauron'
+UNION
+SELECT 'Tantan'
+UNION
+SELECT 'Suki'
+UNION
+SELECT 'Torrant'
+UNION
+SELECT 'Karuda'
+UNION
+SELECT 'Misa'
+UNION
+SELECT 'Rafforty'
+UNION
+SELECT 'Kierre'
+UNION
+SELECT 'Mulia'
+UNION
+SELECT 'Ilia'
+UNION
+SELECT 'Yumi'
+UNION
+SELECT 'Weathermaster'
+UNION
+SELECT 'Wendy'
+UNION
+SELECT 'Rooney'
+UNION
+SELECT 'Obi'
+UNION
+SELECT 'Abey'
+UNION
+SELECT 'Gutenhagen'
+UNION
+SELECT 'Adolph'
+UNION
+SELECT 'Linda'
+UNION
+SELECT 'Edwin'
+UNION
+SELECT 'Alder'
+UNION
+SELECT 'Bolin'
+UNION
+SELECT 'Schule'
+UNION
+SELECT 'Marie'
+UNION
+SELECT 'Helminter'
+UNION
+SELECT 'Finker'
+UNION
+SELECT 'Celes'
+UNION
+SELECT 'Vervato'
+UNION
+SELECT 'Dinn'
+UNION
+SELECT 'Singsing'
+UNION
+SELECT 'Orahochin'
+UNION
+SELECT 'Gariachin'
+UNION
+SELECT 'Marquez'
+UNION
+SELECT 'Mushika'
+UNION
+SELECT 'Asamah'
+UNION
+SELECT 'Kirikachin'
+UNION
+SELECT 'Karakawei'
+UNION
+SELECT 'Bonny'
+UNION
+SELECT 'Recruit'
+UNION
+SELECT 'Headquarters'
+UNION
+SELECT 'Cronenberg'
+UNION
+SELECT 'Blacksmith'
+UNION
+SELECT 'Sayres'
+UNION
+SELECT 'Grad'
+UNION
+SELECT 'Greenspan'
+UNION
+SELECT 'Tyron'
+UNION
+SELECT 'Ivano'
+UNION
+SELECT 'Crosby'
+UNION
+SELECT 'Hodler'
+UNION
+SELECT 'Gibbson'
+UNION
+SELECT 'Ulric'
+UNION
+SELECT 'Saul'
+UNION
+SELECT 'Bryce'
+UNION
+SELECT 'Arvid'
+UNION
+SELECT 'Holmes'
+UNION
+SELECT 'Quant'
+UNION
+SELECT 'Brasseur'
+UNION
+SELECT 'Finrod'
+UNION
+SELECT 'Morrison'
+UNION
+SELECT 'Sherwood'
+UNION
+SELECT 'Logan'
+UNION
+SELECT 'Kruger'
+UNION
+SELECT 'Eldon'
+UNION
+SELECT 'Schaht'
+UNION
+SELECT 'Neurath'
+UNION
+SELECT 'Solinus'
+UNION
+SELECT 'Raybell'
+UNION
+SELECT 'Heinz'
+UNION
+SELECT 'Bodyguard'
+UNION
+SELECT 'Alfred'
+UNION
+SELECT 'Hadley'
+UNION
+SELECT 'Rowell'
+UNION
+SELECT 'Daven'
+UNION
+SELECT 'Brakel'
+UNION
+SELECT 'Tamutak'
+UNION
+SELECT 'Black'
+UNION
+SELECT 'Renny'
+UNION
+SELECT 'Boyer'
+UNION
+SELECT 'Baback'
+UNION
+SELECT 'Tim'
+UNION
+SELECT 'Loring'
+UNION
+SELECT 'Dillon'
+UNION
+SELECT 'Latif'
+UNION
+SELECT 'Bremmer'
+UNION
+SELECT 'Faolan'
+UNION
+SELECT 'Kogan'
+UNION
+SELECT 'Winker'
+UNION
+SELECT 'Merton'
+UNION
+SELECT 'Ruben'
+UNION
+SELECT 'Luce'
+UNION
+SELECT 'Horner'
+UNION
+SELECT 'Amiel'
+UNION
+SELECT 'Borna'
+UNION
+SELECT 'Ron'
+UNION
+SELECT 'Jamal'
+UNION
+SELECT 'Flynn'
+UNION
+SELECT 'Jabilo'
+UNION
+SELECT 'Seth'
+UNION
+SELECT 'Dietrich'
+UNION
+SELECT 'Mikhail'
+UNION
+SELECT 'Gustav'
+UNION
+SELECT 'Hephaeston'
+UNION
+SELECT 'Loken'
+UNION
+SELECT 'Biggerstaff'
+UNION
+SELECT 'Messenger'
+UNION
+SELECT 'Chamberlain'
+UNION
+SELECT 'Carey'
+UNION
+SELECT 'Daniel'
+UNION
+SELECT 'Dianne'
+UNION
+SELECT 'Jacques'
+UNION
+SELECT 'Crissy'
+UNION
+SELECT 'Joff'
+UNION
+SELECT 'Albert'
+UNION
+SELECT 'Niels'
+UNION
+SELECT 'Korgen'
+UNION
+SELECT 'Rudy'
+UNION
+SELECT 'DiMaggio'
+UNION
+SELECT 'Gellar'
+UNION
+SELECT 'Emma'
+UNION
+SELECT 'Theobolt'
+UNION
+SELECT 'Adrienne'
+UNION
+SELECT 'Rosconne'
+UNION
+SELECT 'Bianca'
+UNION
+SELECT 'Stewart'
+UNION
+SELECT 'Gladys'
+UNION
+SELECT 'Theron'
+UNION
+SELECT 'Regina'
+UNION
+SELECT 'Trey'
+UNION
+SELECT 'Aida'
+UNION
+SELECT 'Kalmer'
+UNION
+SELECT 'Helga'
+UNION
+SELECT 'Volfrem'
+UNION
+SELECT 'Millicent'
+UNION
+SELECT 'Gerard'
+UNION
+SELECT 'Branhillde'
+UNION
+SELECT 'Lambert'
+UNION
+SELECT 'Frederick'
+UNION
+SELECT 'Titus'
+UNION
+SELECT 'Gompus'
+UNION
+SELECT 'Sherman'
+UNION
+SELECT 'Verus'
+UNION
+SELECT 'August'
+UNION
+SELECT 'Gallic'
+UNION
+SELECT 'Kendrew'
+UNION
+SELECT 'Daguerre'
+UNION
+SELECT 'Ronald'
+UNION
+SELECT 'Emil'
+UNION
+SELECT 'Wayne'
+UNION
+SELECT 'Patty'
+UNION
+SELECT 'Dale'
+UNION
+SELECT 'Jimmy'
+UNION
+SELECT 'Shawn'
+UNION
+SELECT 'Michael'
+UNION
+SELECT 'Ryan'
+UNION
+SELECT 'Jack'
+UNION
+SELECT 'Harry'
+UNION
+SELECT 'Karuto'
+UNION
+SELECT 'Egon'
+UNION
+SELECT 'Carol'
+UNION
+SELECT 'Osho'
+UNION
+SELECT 'Stanley'
+UNION
+SELECT 'Walter'
+UNION
+SELECT 'Billy'
+UNION
+SELECT 'Alice'
+UNION
+SELECT 'Serena'
+UNION
+SELECT 'Neria'
+UNION
+SELECT 'Manager'
+UNION
+SELECT 'Doorman'
+UNION
+SELECT 'Coordinator'
+UNION
+SELECT 'Angout'
+UNION
+SELECT 'Quigby'
+UNION
+SELECT 'Valens'
+UNION
+SELECT 'Jacquard'
+UNION
+SELECT 'Bandello'
+UNION
+SELECT 'Shadow'
+UNION
+SELECT 'Silhouette'
+UNION
+SELECT 'Soulless'
+UNION
+SELECT 'Nightshade'
+UNION
+SELECT 'Wyvern'
+GO

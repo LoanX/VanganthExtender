@@ -1,0 +1,4 @@
+//BlockedIp.txt in L2Server folder
+//all ips from that file will be blocked and wont connecto to l2server
+192.168.10.10
+192.168.15.23

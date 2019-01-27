@@ -1,0 +1,184 @@
+#pragma once
+#include "DBSocket.h"
+#include "CacheD.h"
+
+class CDB
+{
+/*000*/	CDB *pInstance;	//not in org l2srv class
+/*008*/ LPVOID pUnkn008;
+/*010*/ LPVOID pUnkn010;
+/*018*/ LPVOID pUnkn018;
+/*020*/ LPVOID pUnkn020;
+/*028*/ CDBSocket *pDBSocket1;
+/*030*/ CDBSocket *pDBSocket2;
+/*038*/ CDBSocket *pAuthSocket;
+public:
+	CDB() { pInstance = (CDB*)0x10488E0; };
+	inline CDB* GetOrgInstance() { return pInstance; };
+	void Send(const char *format, ...);
+	void SaveQuestInfo(User *pUser);
+	void RequestSavePledgePower(User *pUser);
+	void RequestSaveJoinPledgeLevel(int nUserDBID, int nLevel);
+	void RequestSaveCharacterInfo(User *pUser, bool notActive, bool force);
+	void RequestSaveCharacterForSubJob(User *pUser);
+	void RequestSetPledgeMemberRank(int nPledgeID, PWCHAR wszName, int nRank);
+	void RequestSetPledgePrivilege(int nPledgeID, int nRank, INT32 nPrivilege);
+	void RequestReorganizeMember(PWCHAR wszName, int nPledgeType, int nPledgeID);
+	void RequestCreateExtPledgeInfo(int nPledgeID);
+	void RequestSetPledgeReputation(int nPledgeID, int nReputation);
+	void RequestSetSponsor(int nCharID, int nSponsorID, int nPledgeID);
+	void RequestUpdateUserPledge(User *pUser, CPledge *pPledge, int nUpdateType);
+	void RequestSetUserPledgeTypeAndRank(int nDBID, int nRank, int nPledgeType);
+	void RequestSetSubCaptain(int nPledgeID, int nPledgeType, PWCHAR wszName, int nCaptainDBID);
+	void RequestCreateSubPledge(int nPledgeID, int nPledgeType, PWCHAR wszName);
+	void RequestRenameSubPledge(int nPledgeID, int nPledgeType, PWCHAR wszName);
+	void RequestAcquirePledgeSkill(int nPledgeID, int nSkillID, int nLevel);
+	void RequestEnchantItem(CItem *pScroll, CItem *pItem, int nEnchant, User *pUser);
+	void RequestEnchantFail(CItem *pScroll, CItem *pItem, User *pUser);
+	void RequestSaveHeroType(User *pUser, int nHeroType);
+	void RequestRemoveHero(int nDBID);
+	void SendAcquiredSkill(int charId, int skillId, int level, bool mayDown);
+	void RequestSaveNoblessType(User *pUser, int nType);
+	void RequestDestroyItem(CItem *pItem, int nAmount, User *pUser);
+	void RequestPackageSendToTarget(User *pUser, int nTargetDBID, int nAmount, int nBuffSize, PUCHAR Buff, int nNpcClassID);
+	void RequestSaveItemDataEx(UINT charId, CItem *pItem);
+	void RequestDelegateClanMaster(int nPledgeID, int nCharID);
+	void RequestSavePledgeStat(PCHAR Buff, int Size, int MemberCount);
+	void RequestLoadWareHouseItems(int nDBID, User *pUser, int nWhID, CWareHouseWithdraw *pWH, int nNpcClassID, int nMemoryID);
+	void RequestSavePrivateStoreInfo(int nCharID, int nStoreType, StoreItemList& lItems, int nOffline, int nCreate);
+	void RequestNewbieCheck(User *pUser);
+	void RequestLoadPledge(const WCHAR* wPledgeName);
+	void RequestModifyPledgeName(unsigned int pledgeId, const WCHAR* wPledgeName);
+	void RequestLoadSpiritCount(int nCharID);
+	void RequestSaveBuffList(User *pUser);
+	void RequestLoadBuffList(int nCharID, int nSubjobIdx);
+	void RequestSaveKillDeathStat(int nCharID, int nClassID1, int nLevel, int nCharID2, int nClassID2, int nLevel2, int KillerHP, int KillerMaxHP, int KillerCP, int KillerMaxCP, int x, int y, int z, int PvP, int SkillID, int SkillLevel);
+	void RequestCustomEnchantItem(int nUserID, int nItemID, int nEnchant, int scrollId = 0);
+	void RequestSaveAIO(int charId, UINT id, UINT timestamp);
+	void RequestLoadAIO(int charId);
+	void RequestLoadVipStatus(int charId);
+	void RequestSaveVipStatus(int charId, int vipLevel, DWORD vipTimestamp);
+	void RequestDeleteItems(DWORD UniqueId, int RequestType, DWORD StartTick,  list<int>& lItems);
+	void RequestOwnAgit(int ResidenceId, int PledgeId);
+	void RequestRestoreCH(int pledgeId, int lostChId);
+	void RequestLoadNpcDeath();
+	void RequestSaveNpcDeath(int npc_class_id, DWORD death_time);
+	void RequestLoadVIPAccounts();
+	void RequestLoadBannedAccounts();
+	void RequestLoadVotePoints(int accountId, int charId);
+	void RequestSaveVotePoints(int accountId, int charId, int points);
+	void RequestBanAccount(UINT accountId, const WCHAR* wName, UINT timestamp, const WCHAR* wReason = L"Default");
+	void RequestGetItemFromPet(User *pUser, CItem *pItem, INT32 itemCount);
+	void RequestSaveMultiSellLog(UINT charId, UINT accountId, PWCHAR wName, PWCHAR wAccount, INT32 price1Id, INT32 price1Count, INT32 price2Id, INT32 price2Count, INT32 price3Id, INT32 price3Count, INT32 price4Id, INT32 price4Count, INT32 price5Id, INT32 price5Count, INT32 reward1Id, INT32 reward1Count, INT32 reward2Id, INT32 reward2Count, INT32 reward3Id, INT32 reward3Count, INT32 reward4Id, INT32 reward4Count, INT32 reward5Id, INT32 reward5Count, UINT timestamp);
+	void RequestLockAccount(UINT accountId, LPBYTE lpHwid, WCHAR* wName);
+	void RequestUnlockAccount(UINT accountId);
+	void RequestLockChar(UINT charId, LPBYTE lpHwid, WCHAR* wName);
+	void RequestUnlockChar(UINT charId);
+	void RequestLoadHwidLockData();
+	void RequestSaveUserFraction(User *pUser);
+	void RequestLoadUserFraction(UINT charId);
+	void RequestSetAdditionalBox(UINT accountId, UINT timestamp);
+	void RequestLoadAdditionalBoxData();
+	void RequestSaveFractionData(UINT fractionId, INT32 points, UINT onlineMembers);
+	void RequestLoadFractionData(UINT fractionId);
+	void RequestItemDeliveryAsk(UINT charId);
+	void RequestItemDeliveryDone(UINT charId, UINT jobId);
+	void RequestChangePos(WCHAR* wName, UINT worldId, INT32 x, INT32 y, INT32 z);
+	void RequestCreateAuction(UINT sellerId, const WCHAR* wSeller, int itemId, int amount, int enchant, UINT augmentation, int price, UINT expireTime);
+	void RequestModdifyAuctionAmount(UINT auctionId, int newAmount);
+	void RequestDeleteAuction(UINT auctionId);
+	void RequestLoadAuctionItems();
+	void RequestClassChangedJob(User *pUser);
+	void RequestSaveSubjob(UINT charId, INT32 subjobId, double hp, double mp, int exp, int sp, int level, int henna1, int henna2, int henna3);
+	void RequestAuctionPaymentAsk(UINT charId);
+	void RequestAuctionPaymentDone(UINT charId, UINT jobId);
+	void RequestAuctionAddPaymentJob(UINT sellerId, int priceItemId, int priceAmount, int itemId, int amount, const WCHAR* wBuyer);
+	void RequestAddPledgeSkill(UINT pledgeId, INT32 skillId, INT32 skillLevel);
+	void RequestLoadPledgeSkills(UINT pledgeId);
+	void RequestSaveWeddingStatus(UINT userId, UINT state, UINT partnerId, const WCHAR* wPartnerName, UINT penaltyTimeout, UINT teleportTimeout, UINT weddingTime);
+	void RequestLoadWeddingStatus(UINT userId);
+	void RequestTestQuery();
+	void RequestLoadRaidBossStatus();
+	void RequestLoadPKStatus();
+	void RequestLoadPvPStatus();
+	void RequestSetNextCastleSiege(User *pUser, CCastle *pCastle, UINT nextSiegeTime);
+	void RequestSetNextAgitBattle(CResidence *pResidence);
+	void RequestLoadBannedHardwareId();
+	void RequestSaveHardwareId(UINT charId, LPBYTE lpHwid);
+	void RequestBanHardwareId(LPBYTE lpHwid, const WCHAR* wAccount, const WCHAR* wGMName, UINT timeout);
+	void RequestUnBanHardwareId(LPBYTE lpHwid);
+	void RequestLoadNameTitleColor(UINT charId);
+	void RequestLoadCharacterLock(UINT charId);
+	void RequestSaveCharacterLock(UINT charId, LPBYTE lpHash, LPBYTE lpHWID);
+	void RequestSaveDailyPvP(UINT charId, INT32 amount, UINT timestamp);
+	void RequestSaveDailyPvPEntry(UINT charId, LPBYTE lpHWID, UINT timestamp);
+	void RequestLoadDailyPvPEntry();
+	void RequestLoadDailyPvP(UINT charId);
+	void RequestSaveSubStack(UINT charId, UINT subjobIndex, UINT baseClass, UINT stackClass);
+	void RequestLoadSubStack(UINT charId);
+	void RequestSaveInstanceTime(UINT charId, UINT instanceId, UINT timeSpent, UINT reuseTimeout);
+	void RequestLoadInstanceTime(UINT charId);
+	void RequestLoadL2NetworkVote(UINT charId, const WCHAR* wIdentity);
+	void RequestSaveL2NetworkVote(const WCHAR* wIdentity, UINT lastVoteTime, UINT lastRewardTime);
+	void RequestSaveVisualArmor(UINT charId, UINT armorId);
+	void RequestLoadVisualArmor(UINT charId);
+	void RequestLoadRebirth(UINT charId, UINT subjobId);
+	void RequestSaveRebirth(UINT charId, UINT subjobId, INT32 rebirthCount, INT32 availablePoints, INT32 bonusInt, INT32 bonusStr, INT32 bonusCon, INT32 bonusMen, INT32 bonusDex, INT32 bonusWit);
+	void RequestLoadDBNpcMaker();
+	void RequestSetCharacterPIN(UINT charId, UINT pin, UINT timestamp);
+	void RequestLoadCharacterPINS();
+	void RequestLoadClanPvPStatus(UINT pledgeLevel, UINT topLimit);
+
+};
+
+extern CDB g_DB;
+
+
+typedef bool (*DBPacketCallback)(CDBSocket*, const unsigned char*, UINT);
+
+class CDBPacket
+{
+public:
+	static void Init();
+	static void Bind(UINT id, DBPacketCallback func);
+	static bool Handler(CDBSocket *pSocket, const unsigned char* packet);
+	static bool DummyPacket(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyRestoreCH(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadSpiritCount(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadBuffList(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyCustomEnchantItem(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadAIO(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadNpcDeath(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadVipStatus(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadVIPAccounts(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadVotePoints(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadBannedAccounts(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadHwidLockData(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadAdditionalBox(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadUserFraction(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyItemDeliveryAsk(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadFractionData(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyCreateAuction(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadAuctionItem(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyAuctionPaymentAsk(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadPledgeSkills(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadWeddingStatus(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyTestQuery(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadRaidBossStatus(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadBannedHardwareId(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadPKStatus(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadPvPStatus(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadNameTitleColor(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadCharacterLock(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadDailyPvPEntry(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadDailyPvP(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadSubStack(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadInstanceTime(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadL2NetworkVote(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadVisualArmor(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadRebirth(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadDBNpcMaker(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadCharacterPIN(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	static bool ReplyLoadPledgeTotalPvP(CDBSocket *pSocket, const unsigned char* packet, UINT packetId);
+	
+};

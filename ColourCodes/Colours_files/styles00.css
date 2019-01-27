@@ -1,0 +1,529 @@
+		/******************* BASIC PAGE ELEMENTS *******************/
+
+BODY, P, PRE, TD, TH {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #999999;
+	font-size: 8pt; }
+
+BODY { 
+	margin: 2px;
+	background-color: #ffffff; }
+
+P, PRE, CODE, TT { 
+	margin-top: 0.5em; 
+	margin-bottom: 0.5em; }
+
+TD { 
+	vertical-align: top; }
+
+TH {
+	text-align: center; }
+		
+A, A:link, 
+A:visited, 
+A:active { 
+	color: #333366; 
+	text-decoration: none; }
+	
+A:hover {	
+	text-decoration: underline; }
+
+H1 {
+	font: normal 18pt Verdana, Arial, Helvetica, sans-serif;
+	color: #999999;
+	margin-top: 9pt;
+	text-align: center; }
+
+H2 {
+	font: normal 14pt Verdana, Arial, Helvetica, sans-serif;
+	color: #999999;
+	margin-top:1em; 
+	margin-bottom:0.5em }
+
+H3 {
+	font: bold 12pt Verdana, Arial, Helvetica, sans-serif;
+	color: #999999;
+	margin-bottom:0.5em }
+
+H4 {
+	font: bold 10pt Verdana, Arial, Helvetica, sans-serif;
+	color: #999999;
+	margin-top: 0px;
+	margin-bottom: 0.5em; }
+
+H5 {
+	font: bold 100% Verdana, Arial, Helvetica, sans-serif;
+	color: #999999;
+	margin-top: 1em;
+	margin-bottom: 0.5em; }
+
+H6 {
+	font: normal 24pt Verdana, Arial, Helvetica, sans-serif;
+	color: #999999;
+	margin-top: 9pt; }
+
+H1.articleTitle,
+H1.articleTitle2 {
+	font: normal 24pt Verdana, Arial, Helvetica, sans-serif;
+	color: #999999;
+	margin-top: 9pt; }
+	
+H1.articleTitle {
+	text-align: left; }
+
+B {
+	font-weight: bold; }
+
+STRONG {
+	font-weight: bold; }
+
+EM {
+	font-style: italic; }
+
+CODE { font: 120% monaco, monotype, "courier new", courier; color: #999999; }
+
+TT { font: 120% monaco, monotype, "courier new", courier; color: #cccccc; }
+
+HR { height: 1px; color: #cccccc }
+
+	
+/* -------- LIST ITEMS -------- */
+
+OL { margin-left:25px; margin-top:5px; margin-bottom:5px; color: #999999; }
+
+OL LI { margin-bottom:0.5em; }
+
+UL { margin-left:17px; margin-top:0; margin-bottom:0; }
+
+UL LI { margin-bottom:0.5em;}
+
+UL LI LI { list-style-type: square; }
+
+UL.greybox  LI { list-style-image:url("../images/elements1/b_greybox7.gif"); margin-left:3px; }
+UL.bluesquare  LI { list-style-image:url("../images/elements1/b_bluesquare.gif"); margin-left:4px; }
+UL.redsquare  LI { list-style-image:url("../images/elements1/b_redsquare.gif"); margin-left:4px; }
+
+
+/* -------- TEXT ELEMENTS -------- */	
+
+.small { font-size: 80%; }
+
+.smallgreytext {
+	font-size: 7pt;
+	color: #999999; }
+
+.whiteheading {
+	font: normal 18pt Verdana, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	margin-top: 0.2em; 
+	margin-bottom: 0.2em; }
+
+
+/* -------- PARAGRAPH ELEMENTS -------- */
+
+.quote {
+	font: 120%/140% verdana, arial, helvetica, sans-serif; 
+	color: #cccccc; 
+	margin-left: 10px;
+	margin-right: 10px; }
+
+
+
+/******************* STANDARD PAGE LAYOUT *******************/
+
+
+/* -------- TITLE BAR -------- */
+
+.titleleft 
+	{
+	margin: 0;
+	background-color: #ffffff;
+	border-bottom: 1px solid #cccccc;
+	vertical-align: top;
+	text-align: left;
+	width: 240px; }
+
+.titleright 
+	{
+	margin: 0;
+	background-color: #ffffff;
+	border-bottom: 1px solid #cccccc;
+	vertical-align: middle;
+	text-align: right;
+	color: #999999;
+	font-size: 10pt;
+	font-weight: normal; }
+
+
+/* --------- MENU BAR --------- */
+
+.menubarleft,
+.menubarright
+	{
+	margin: 0;
+	background-color: #ffffff;
+	border-bottom: 1px solid #cccccc;
+	vertical-align: middle;
+	color: #999999;
+	font-size: 7pt;
+	font-weight: normal;
+	padding: 1px 8px 3px 8px; }
+
+.menubarleft
+	{
+	width: 140px; }
+
+TABLE.menubar {
+	color: #999999;
+	font-size: 7pt;
+	font-weight: normal; }
+
+TABLE.menubar A:link,
+TABLE.menubar A:visited, 
+TABLE.menubar A:active, { 
+	color: #999999; 
+	text-decoration: none; }
+	
+TABLE.menubar A:hover {	
+	color: #333366; 
+	text-decoration: underline; }
+
+
+	
+
+/* -------- MENUS -------- */
+
+A.menu:link, 
+A.menu:visited, 
+A.menu:active 
+	{ 
+	color: #999999; 
+	text-decoration: none; }
+	
+A.menu:hover 
+	{	
+	color: #333366; 
+	text-decoration: underline; }
+
+
+/* --------- BLANK BAR --------- */
+
+.blankbar
+	{
+	margin: 0;
+	background-color: #ffffff;
+	border: none;
+	vertical-align: middle;
+	color: #669999;
+	font-size: 7pt;
+	font-weight: normal;
+	padding: 1px 8px 1px 8px;}
+
+
+/* -------- MAIN TABLE -------- */
+
+.leftcol 
+	{
+	width: 140px;
+	padding: 4px 8px 4px 8px; }
+
+.thincol 
+	{
+	width: 1px;
+	background-color: #ffffff; }
+
+.maincol 
+	{
+	padding: 0px 15px 1px 15px; }
+
+.rightcol 
+	{
+	width: 140px;
+	padding: 4px 8px 4px 8px; }
+
+
+/* -------- FOOTER -------- */
+
+.footerleft,
+.footerright 
+	{
+	font: normal 7pt Verdana, Arial, Helvetica, sans-serif;
+	padding: 1px 8px 3px 8px;
+	background-color: #ffffff;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	vertical-align: middle;  }
+
+.footerleft 
+	{
+	text-align: left; }
+
+.footerright 
+	{
+	text-align: right;  }
+
+
+/********************* TABLES *********************/
+
+
+/* -------- SITE MAP -------- */
+
+.sitemapHeader { 
+	width: 138px;
+	background-color: #cccccc;
+	padding: 3px 5px 3px 5px; 
+	border: 1px solid #cccccc; 
+	color: #ffffff; }
+
+.sitemapBox 
+	{
+	width: 138px;
+	padding: 3px 5px 3px 5px; 
+	border: 1px solid #cccccc; }
+
+A.sitemap:link, 
+A.sitemap:visited, 
+A.sitemap:active 
+	{ 
+	color: #ffffff; 
+	text-decoration: none; }
+	
+A.sitemap:hover 
+	{	
+	color: #333366; 
+	text-decoration: underline; }
+
+
+/* -------- LINKS TABLE -------- */
+
+.linkstableHeader { 
+	font-size: 7pt;
+	background-color: #cccccc;
+	padding: 3px 5px 3px 5px; 
+	border: 1px solid #cccccc; 
+	color: #ffffff; }
+
+.linkstable
+	{
+	font-size: 7pt;
+	background-color: #ffffff;
+	padding: 3px 5px 3px 5px; 
+	color: #3399cc;
+	border: 1px solid #cccccc; }
+
+.linkstable A, .linkstable A:link { color: #999999; }
+
+.linkstable A:visited { color: #336699; }
+
+.linkstable A:active { color: #ff00cc; }
+
+
+/* -------- OUTLINE TABLE -------- */
+
+TABLE.outlinetable TD
+	{ 
+	color: #999999;
+	text-align: center;
+	padding: 1px 2px 1px 2px;
+	border: 1px solid #cccccc; }
+
+TABLE.outlinetable TH 
+	{ 
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	padding: 1px 2px 1px 2px;
+	border: 1px solid #cccccc;
+	background-color: #cccccc; }
+		
+	
+/* -------- INFO TABLE (small text) -------- */
+
+TABLE.infotable
+	{
+	width: 100%; }
+	
+TABLE.infotable TH 
+	{ 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt; 
+	color: #ffffff;
+	padding: 2px;
+	border-left: 1px solid #999999;
+	border-top: 1px solid #999999;
+	border-right: 1px solid #999999; }
+
+TABLE.infotable TD 
+	{ 
+	font-size: 7pt; 
+	padding: 3px 4px 3px 4px;
+	border: 1px solid #999999; }
+
+TABLE.infotable P {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #999999;
+	font-size: 7pt;
+	margin-top: 0.5em; 
+	margin-bottom: 0.5em; }
+
+TD.greylink A:link,
+TD.greylink A:visited,
+TD.greylink A:active {
+	color: #999999; }
+TD.greylink A:hover {
+	color: #333366; 
+	text-decoration: underline; }
+
+
+/* -------- SMALLGREYLINK TABLE -------- (used on photo tables) */
+
+TABLE.smallgreylink TD {
+	font-size: 7pt;
+	color: #999999;}
+TABLE.smallgreylink A:link, 
+TABLE.smallgreylink A:visited, 
+TABLE.smallgreylink A:active { 
+	color: #999999; }
+TABLE.smallgreylink A:hover {	
+	color: #333366; 
+	text-decoration: underline; }
+
+
+/* -------- INDEX TABLE -------- (not used yet) */
+
+TABLE.indextable TD 
+	{ 
+	width: 90px;
+	text-align: center; }
+
+
+/********************* BOXES *********************/
+
+
+/* -------- BOXINDENT (small text) -------- */
+
+.boxindent
+	{
+	font: 7pt verdana, arial, helvetica, sans-serif; 
+	background-color: #ffffff; 
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 3px 5px 3px 5px; 
+	border-width: 1px; 
+	border-style: solid; 
+	border-color: #cccccc;}
+
+.boxindent P
+	{
+	font: 7pt verdana, arial, helvetica, sans-serif; }
+	
+
+/* -------- STANDARD BOX -------- (not used yet) */
+
+.boxheader
+	{ 
+	padding: 2px;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999; 
+	border-top: 1px solid #999999; }
+
+.boxheaderright
+	{ 
+	padding: 2px;
+	border-right: 1px solid #999999; 
+	border-top: 1px solid #999999; }
+
+.box {
+	padding: 3px 4px 3px 4px;
+	border: 1px solid #999999; }
+
+.boxdown {
+	padding: 3px 4px 3px 4px;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999; }
+
+.boxright {
+	padding: 3px 4px 3px 4px;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999; }
+
+
+/* -------- OUTLINE BOXES -------- (not used yet) */
+
+.headercell { 
+	width: 100%;
+	background-color: #cccccc;
+	padding: 3px 5px 3px 5px; 
+	border: 1px solid #cccccc; 
+	color: #ffffff; }
+
+.outline 
+	{
+	width: 100%;
+	padding: 3px 5px 3px 5px; 
+	border: 1px solid #cccccc; }
+
+.blankcell { 
+	width: 100%;
+	border: none; }
+
+
+/********************* OTHER ELEMENTS *********************/
+
+
+/* -------- SHADED ELEMENTS -------- */	
+
+
+/* (shade3 and shade4 used on Symbols.htm) */	
+
+
+.shade1 { background-color: #000000; color: #ffffff; }
+.shade2 { background-color: #333333; color: #ffffff; }
+.shade3 { background-color: #666666; color: #ffffff; }
+.shade4 { background-color: #999999; color: #ffffff; }
+.shade5 { background-color: #cccccc; color: #999999; }
+.shade6 { background-color: #eeeeee; color: #999999; }
+
+.shade1 A, .shade1 A:link, .shade1 A:visited { color: #ccffff; }
+.shade2 A, .shade2 A:link, .shade2 A:visited { color: #ccffff; }
+.shade3 A, .shade3 A:link, .shade3 A:visited { color: #ccffff; }
+.shade4 A, .shade4 A:link, .shade4 A:visited { color: #ccffff; }
+.shade5 A, .shade5 A:link, .shade5 A:visited { color: #669999; }
+.shade6 A, .shade6 A:link, .shade6 A:visited { color: #669999; }
+
+.shade1 A:active { color: #ffffcc; }
+.shade2 A:active { color: #ffffcc; }
+.shade3 A:active { color: #ffffcc; }
+.shade4 A:active { color: #ffffcc; }
+.shade5 A:active { color: #cc0066; }
+.shade6 A:active { color: #cc0066; }
+
+
+.grey1 { background-color: #000000; color: #ffffff; }
+.grey2 { background-color: #333333; color: #ffffff; }
+.grey3 { background-color: #666666; color: #ffffff; }
+.grey4 { background-color: #999999; color: #ffffff; }
+.grey5 { background-color: #cccccc; color: #999999; }
+.grey6 { background-color: #eeeeee; color: #999999; }
+
+.grey1 A, .grey1 A:link, .grey1 A:visited { color: #ccffff; }
+.grey2 A, .grey2 A:link, .grey2 A:visited { color: #ccffff; }
+.grey3 A, .grey3 A:link, .grey3 A:visited { color: #ccffff; }
+.grey4 A, .grey4 A:link, .grey4 A:visited { color: #ccffff; }
+.grey5 A, .grey5 A:link, .grey5 A:visited { color: #669999; }
+.grey6 A, .grey6 A:link, .grey6 A:visited { color: #669999; }
+
+.grey1 A:active { color: #ffffcc; }
+.grey2 A:active { color: #ffffcc; }
+.grey3 A:active { color: #ffffcc; }
+.grey4 A:active { color: #ffffcc; }
+.grey5 A:active { color: #cc0066; }
+.grey6 A:active { color: #cc0066; }
+
+
+.grey248 { background-color: #f8f8f8; color: #999999; }
+.grey240 { background-color: #f0f0f0; color: #999999; }
+.grey224 { background-color: #e0e0e0; color: #999999; }
+
+

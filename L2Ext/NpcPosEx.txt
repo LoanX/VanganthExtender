@@ -1,0 +1,4 @@
+//start_hour/end_hour can be 0-23
+//day_flag 1 = sunday, 10 = monday, 11 = sunday and monday, 1000000 = saturday
+setting_begin	enabled=0	setting_end
+npc_pos_begin	npc_class_id=1030767	start_date=2010-10-29-20-00 end_date=2010-10-23-20-00	day_flag=1111111 start_hour=14	start_minute=30	end_hour=20	respawn_time=60	position={148560;27104;-2208;16356}	ai_parameters={[fnAgitMap]=[aden]}	npc_pos_end

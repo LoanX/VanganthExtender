@@ -1,0 +1,246 @@
+//ItemDataEx.txt contains additional not required item parameters
+//life_time static item life time in seconds (item will disappear no matter if will be used or not)
+//shadow_time is a shadow item life time (it's item usage time) in seconds
+//vip rune
+begin	item_id=9448	/* Vip Rune 1 */ life_time=86400	title_color=7456369	nickname_color=7456369	skill_list={s_vip_rune1}	max_stackable_level=3	end
+//Elixirs
+begin	item_id=8622	/* Elixir_of_Life_(No_Grade) */	life_time=0	shadow_time=0	reuse_group=1	end
+begin	item_id=8623	/* Elixir_of_Life_(D-Grade) */	life_time=0	shadow_time=0	reuse_group=1	end
+begin	item_id=8624	/* Elixir_of_Life_(C-Grade) */	life_time=0	shadow_time=0	reuse_group=1	end
+begin	item_id=8625	/* Elixir_of_Life_(B-Grade) */	life_time=0	shadow_time=0	reuse_group=1	end
+begin	item_id=8626	/* Elixir_of_Life_(A-Grade) */	life_time=0	shadow_time=0	reuse_group=1	end
+begin	item_id=8627	/* Elixir_of_Life_(S-Grade) */	life_time=0	shadow_time=0	reuse_group=1	end
+begin	item_id=8628	/* Elixir_of_Mental_Strength_(No_Grade) */	life_time=0	shadow_time=0	reuse_group=2	end
+begin	item_id=8629	/* Elixir_of_Mental_Strength_(D-Grade) */	life_time=0	shadow_time=0	reuse_group=2	end
+begin	item_id=8630	/* Elixir_of_Mental_Strength_(C-Grade) */	life_time=0	shadow_time=0	reuse_group=2	end
+begin	item_id=8631	/* Elixir_of_Mental_Strength_(B-Grade) */	life_time=0	shadow_time=0	reuse_group=2	end
+begin	item_id=8632	/* Elixir_of_Mental_Strength_(A-Grade) */	life_time=0	shadow_time=0	reuse_group=2	end
+begin	item_id=8633	/* Elixir_of_Mental_Strength_(S-Grade) */	life_time=0	shadow_time=0	reuse_group=2	end
+begin	item_id=8634	/* Elixir_of_CP_(No_Grade) */	life_time=0	shadow_time=0	reuse_group=7	end
+begin	item_id=8635	/* Elixir_of_CP_(D-Grade) */	life_time=0	shadow_time=0	reuse_group=7	end
+begin	item_id=8636	/* Elixir_of_CP_(C-Grade) */	life_time=0	shadow_time=0	reuse_group=7	end
+begin	item_id=8637	/* Elixir_of_CP_(B-Grade) */	life_time=0	shadow_time=0	reuse_group=7	end
+begin	item_id=8638	/* Elixir_of_CP_(A-Grade) */	life_time=0	shadow_time=0	reuse_group=7	end
+begin	item_id=8639	/* Elixir_of_CP_(S-Grade) */	life_time=0	shadow_time=0	reuse_group=7	end
+//shadow items
+begin	item_id=8821	/* Shadow Item: Two Handed Sword */	life_time=0	shadow_time=5400	end
+begin	item_id=8822	/* Shadow Item: Crimson Sword */	life_time=0	shadow_time=5400	end
+begin	item_id=8823	/* Shadow Item: Spiked Club */	life_time=0	shadow_time=5400	end
+begin	item_id=8824	/* Shadow Item: Staff of Magic */	life_time=0	shadow_time=5400	end
+begin	item_id=8825	/* Shadow Item: Kukuri */	life_time=0	shadow_time=5400	end
+begin	item_id=8826	/* Shadow Item: Dagger of Mana */	life_time=0	shadow_time=5400	end
+begin	item_id=8827	/* Shadow Item: Triple-Edged Jamadhr */	life_time=0	shadow_time=5400	end
+begin	item_id=8828	/* Shadow Item: Gastraphetes */	life_time=0	shadow_time=5400	end
+begin	item_id=8829	/* Shadow Item: War Hammer */	life_time=0	shadow_time=5400	end
+begin	item_id=8830	/* Shadow Item: Katana */	life_time=0	shadow_time=18000	end
+begin	item_id=8831	/* Shadow Item: Bec de Corbin */	life_time=0	shadow_time=18000	end
+begin	item_id=8832	/* Shadow Item: Cursed Staff */	life_time=0	shadow_time=18000	end
+begin	item_id=8833	/* Shadow Item: Stiletto */	life_time=0	shadow_time=18000	end
+begin	item_id=8834	/* Shadow Item: Soulfire Dirk */	life_time=0	shadow_time=18000	end
+begin	item_id=8835	/* Shadow Item: Elemental Bow */	life_time=0	shadow_time=18000	end
+begin	item_id=8836	/* Shadow Item: Dwarven War Hammer */	life_time=0	shadow_time=18000	end
+begin	item_id=8837	/* Shadow Item: Sword of Revolution */	life_time=0	shadow_time=18000	end
+begin	item_id=8838	/* Shadow Item: Knuckle Duster */	life_time=0	shadow_time=18000	end
+begin	item_id=8839	/* Shadow Item: Sword of Delusion */	life_time=0	shadow_time=18000	end
+begin	item_id=8840	/* Shadow Item: Poleaxe */	life_time=0	shadow_time=18000	end
+begin	item_id=8841	/* Shadow Item: Stick of Eternity */	life_time=0	shadow_time=18000	end
+begin	item_id=8842	/* Shadow Item: Inferno Staff */	life_time=0	shadow_time=18000	end
+begin	item_id=8843	/* Shadow Item: Pa'agrian Hammer */	life_time=0	shadow_time=18000	end
+begin	item_id=8844	/* Shadow Item: Dark Screamer */	life_time=0	shadow_time=18000	end
+begin	item_id=8845	/* Shadow Item: Akat Long Bow */	life_time=0	shadow_time=18000	end
+begin	item_id=8846	/* Shadow Item: Pa'agrian Sword */	life_time=0	shadow_time=18000	end
+begin	item_id=8847	/* Shadow Item: Fisted Blade */	life_time=0	shadow_time=18000	end
+begin	item_id=8848	/* Shadow Item: Stormbringer */	life_time=0	shadow_time=18000	end
+begin	item_id=8849	/* Shadow Item: Great Sword */	life_time=0	shadow_time=18000	end
+begin	item_id=8850	/* Shadow Item: Heavy War Axe */	life_time=0	shadow_time=18000	end
+begin	item_id=8851	/* Shadow Item: Sprite's Staff */	life_time=0	shadow_time=18000	end
+begin	item_id=8852	/* Shadow Item: Keshanberk */	life_time=0	shadow_time=18000	end
+begin	item_id=8853	/* Shadow Item: Sword of Valhalla */	life_time=0	shadow_time=18000	end
+begin	item_id=8854	/* Shadow Item: Kris */	life_time=0	shadow_time=18000	end
+begin	item_id=8855	/* Shadow Item: Arthro Nail */	life_time=0	shadow_time=18000	end
+begin	item_id=8856	/* Shadow Item: Dark Elven Long Bow */	life_time=0	shadow_time=18000	end
+begin	item_id=8857	/* Shadow Item: Swords of Delusion */	life_time=0	shadow_time=18000	end
+begin	item_id=8858	/* Shadow Item: Great Axe */	life_time=0	shadow_time=18000	end
+begin	item_id=8859	/* Shadow Item: Tallum Blade */	life_time=0	shadow_time=18000	end
+begin	item_id=8860	/* Shadow Item: Halberd */	life_time=0	shadow_time=18000	end
+begin	item_id=8861	/* Shadow Item: Dasparion's Staff */	life_time=0	shadow_time=18000	end
+begin	item_id=8862	/* Shadow Item: Bloody Orchid */	life_time=0	shadow_time=18000	end
+begin	item_id=8863	/* Shadow Item: Blood Tornado */	life_time=0	shadow_time=18000	end
+begin	item_id=8864	/* Shadow Item: Carnage Bow */	life_time=0	shadow_time=18000	end
+begin	item_id=8865	/* Shadow Item: Dual Keshanberk */	life_time=0	shadow_time=18000	end
+begin	item_id=8866	/* Shadow Item: Meteor Shower */	life_time=0	shadow_time=18000	end
+begin	item_id=8867	/* Shadow Item: Inferno Master */	life_time=0	shadow_time=18000	end
+begin	item_id=8926	/* Shadow Item: Sword of Delusion */	life_time=0	shadow_time=7200	end
+begin	item_id=8927	/* Shadow Item: Poleaxe */	life_time=0	shadow_time=7200	end
+begin	item_id=8928	/* Shadow Item: Stick of Eternity */	life_time=0	shadow_time=7200	end
+begin	item_id=8929	/* Shadow Item: Inferno Staff */	life_time=0	shadow_time=7200	end
+begin	item_id=8930	/* Shadow Item: Pa'agrian Hammer */	life_time=0	shadow_time=7200	end
+begin	item_id=8931	/* Shadow Item: Dark Screamer */	life_time=0	shadow_time=7200	end
+begin	item_id=8932	/* Shadow Item: Akat Long Bow */	life_time=0	shadow_time=7200	end
+begin	item_id=8933	/* Shadow Item: Pa'agrian Sword */	life_time=0	shadow_time=7200	end
+begin	item_id=8934	/* Shadow Item: Fisted Blade */	life_time=0	shadow_time=7200	end
+begin	item_id=8935	/* Test Rapier */	life_time=0	shadow_time=7200	end
+begin	item_id=8937	/* Shadow Item: Stormbringer */	life_time=0	shadow_time=7200	end
+begin	item_id=8972	/* Shadow Item: Long Spear */	life_time=0	shadow_time=36000	end
+begin	item_id=8973	/* Shadow Item: Falchion */	life_time=0	shadow_time=36000	end
+begin	item_id=8974	/* Shadow Item: Iron Hammer */	life_time=0	shadow_time=36000	end
+begin	item_id=8975	/* Shadow Item: Voodoo Doll */	life_time=0	shadow_time=36000	end
+begin	item_id=8976	/* Shadow Item: Buzdygan */	life_time=0	shadow_time=36000	end
+begin	item_id=8977	/* Shadow Item: Mage Staff */	life_time=0	shadow_time=36000	end
+begin	item_id=8978	/* Shadow Item: Sword Breaker */	life_time=0	shadow_time=36000	end
+begin	item_id=8979	/* Shadow Item: Viper's Fang */	life_time=0	shadow_time=36000	end
+begin	item_id=8980	/* Shadow Item: Composition Bow */	life_time=0	shadow_time=36000	end
+begin	item_id=8981	/* Shadow Item: Crucifix of Blessing */	life_time=0	shadow_time=36000	end
+begin	item_id=8982	/* Shadow Item: Two Handed Sword */	life_time=0	shadow_time=36000	end
+begin	item_id=8983	/* Shadow Item: Crimson Sword */	life_time=0	shadow_time=36000	end
+begin	item_id=8984	/* Shadow Item: Spiked Club */	life_time=0	shadow_time=36000	end
+begin	item_id=8985	/* Shadow Item: Staff of Magic */	life_time=0	shadow_time=36000	end
+begin	item_id=8986	/* Shadow Item: Kukuri */	life_time=0	shadow_time=36000	end
+begin	item_id=8987	/* Shadow Item: Dagger of Mana */	life_time=0	shadow_time=36000	end
+begin	item_id=8988	/* Shadow Item: Triple-Edged Jamadhr */	life_time=0	shadow_time=36000	end
+begin	item_id=8989	/* Shadow Item: Gastraphetes */	life_time=0	shadow_time=36000	end
+begin	item_id=8990	/* Shadow Item: War Hammer */	life_time=0	shadow_time=36000	end
+begin	item_id=8991	/* Shadow Item: Sword of Delusion */	life_time=0	shadow_time=36000	end
+begin	item_id=8992	/* Shadow Item: Poleaxe */	life_time=0	shadow_time=36000	end
+begin	item_id=8993	/* Shadow Item: Stick of Eternity */	life_time=0	shadow_time=36000	end
+begin	item_id=8994	/* Shadow Item: Inferno Staff */	life_time=0	shadow_time=36000	end
+begin	item_id=8995	/* Shadow Item: Pa'agrian Hammer */	life_time=0	shadow_time=36000	end
+begin	item_id=8996	/* Shadow Item: Dark Screamer */	life_time=0	shadow_time=36000	end
+begin	item_id=8997	/* Shadow Item: Akat Long Bow */	life_time=0	shadow_time=36000	end
+begin	item_id=8998	/* Shadow Item: Pa'agrian Sword */	life_time=0	shadow_time=36000	end
+begin	item_id=8999	/* Shadow Item: Fisted Blade */	life_time=0	shadow_time=36000	end
+begin	item_id=9000	/* Shadow Item: Stormbringer*Stormbringer */	life_time=0	shadow_time=36000	end
+begin	item_id=9001	/* Shadow Item: Great Sword */	life_time=0	shadow_time=36000	end
+begin	item_id=9002	/* Shadow Item: Heavy War Axe */	life_time=0	shadow_time=36000	end
+begin	item_id=9003	/* Shadow Item: Sprite's Staff */	life_time=0	shadow_time=36000	end
+begin	item_id=9004	/* Shadow Item: Keshanberk */	life_time=0	shadow_time=36000	end
+begin	item_id=9005	/* Shadow Item: Sword of Valhalla */	life_time=0	shadow_time=36000	end
+begin	item_id=9006	/* Shadow Item: Kris */	life_time=0	shadow_time=36000	end
+begin	item_id=9007	/* Shadow Item: Arthro Nail */	life_time=0	shadow_time=36000	end
+begin	item_id=9008	/* Shadow Item: Dark Elven Long Bow */	life_time=0	shadow_time=36000	end
+begin	item_id=9009	/* Shadow Item: Sword of Delusion*Sword of Delusion */	life_time=0	shadow_time=36000	end
+begin	item_id=9010	/* Shadow Item: Great Axe */	life_time=0	shadow_time=36000	end
+begin	item_id=9011	/* Shadow Item: Tallum Blade */	life_time=0	shadow_time=36000	end
+begin	item_id=9012	/* Shadow Item: Halberd */	life_time=0	shadow_time=36000	end
+begin	item_id=9013	/* Shadow Item: Dasparion's Staff */	life_time=0	shadow_time=36000	end
+begin	item_id=9014	/* Shadow Item: Bloody Orchid */	life_time=0	shadow_time=36000	end
+begin	item_id=9015	/* Shadow Item: Blood Tornado */	life_time=0	shadow_time=36000	end
+begin	item_id=9016	/* Shadow Item: Carnage Bow */	life_time=0	shadow_time=36000	end
+begin	item_id=9017	/* Shadow Item: Keshanberk*Keshanberk */	life_time=0	shadow_time=36000	end
+begin	item_id=9018	/* Shadow Item: Meteor Shower */	life_time=0	shadow_time=36000	end
+begin	item_id=9019	/* Shadow Item: Inferno Master */	life_time=0	shadow_time=36000	end
+begin	item_id=9020	/* Shadow Item: Keshanberk*Damascus */	life_time=0	shadow_time=36000	end
+begin	item_id=9021	/* Shadow Item: Dragon Slayer */	life_time=0	shadow_time=36000	end
+begin	item_id=9022	/* Shadow Item: Sword of Miracles */	life_time=0	shadow_time=36000	end
+begin	item_id=9023	/* Shadow Item: Elysian */	life_time=0	shadow_time=36000	end
+begin	item_id=9024	/* Shadow Item: Branch of the Mother Tree */	life_time=0	shadow_time=36000	end
+begin	item_id=9025	/* Shadow Item: Soul Separator */	life_time=0	shadow_time=36000	end
+begin	item_id=9026	/* Shadow Item: Dragon Grinder */	life_time=0	shadow_time=36000	end
+begin	item_id=9027	/* Shadow Item: Soul Bow */	life_time=0	shadow_time=36000	end
+begin	item_id=9028	/* Shadow Item: Tallum Glaive */	life_time=0	shadow_time=36000	end
+begin	item_id=9029	/* Shadow Item: Dark Legion */	life_time=0	shadow_time=36000	end
+begin	item_id=9030	/* Shadow Item: Bronze Breastplate */	life_time=0	shadow_time=36000	end
+begin	item_id=9031	/* Shadow Item: Bronze Gaiters */	life_time=0	shadow_time=36000	end
+begin	item_id=9032	/* Shadow Item: Hard Leather Shirt */	life_time=0	shadow_time=36000	end
+begin	item_id=9033	/* Shadow Item: Hard Leather Gaiters */	life_time=0	shadow_time=36000	end
+begin	item_id=9034	/* Shadow Item: Tunic of Magic */	life_time=0	shadow_time=36000	end
+begin	item_id=9035	/* Shadow Item: Stockings of Magic */	life_time=0	shadow_time=36000	end
+begin	item_id=9036	/* Shadow Item: Bone Shield */	life_time=0	shadow_time=36000	end
+begin	item_id=9037	/* Shadow Item: Hard Leather Helmet */	life_time=0	shadow_time=36000	end
+begin	item_id=9038	/* Shadow Item: Boots */	life_time=0	shadow_time=36000	end
+begin	item_id=9039	/* Shadow Item: Bracer */	life_time=0	shadow_time=36000	end
+begin	item_id=9040	/* Shadow Item: Mithril Breastplate */	life_time=0	shadow_time=36000	end
+begin	item_id=9041	/* Shadow Item: Mithril Gaiters */	life_time=0	shadow_time=36000	end
+begin	item_id=9042	/* Shadow Item: Gauntlet */	life_time=0	shadow_time=36000	end
+begin	item_id=9043	/* Shadow Item: Iron Boots */	life_time=0	shadow_time=36000	end
+begin	item_id=9044	/* Shadow Item: Hoplon */	life_time=0	shadow_time=36000	end
+begin	item_id=9045	/* Shadow Item: Reinforced Leather Shirt */	life_time=0	shadow_time=36000	end
+begin	item_id=9046	/* Shadow Item: Reinforced Leather Gaiters */	life_time=0	shadow_time=36000	end
+begin	item_id=9047	/* Shadow Item: Reinforced Leather Gloves */	life_time=0	shadow_time=36000	end
+begin	item_id=9048	/* Shadow Item: Reinforced Leather Boots */	life_time=0	shadow_time=36000	end
+begin	item_id=9049	/* Shadow Item: Tunic of Knowledge */	life_time=0	shadow_time=36000	end
+begin	item_id=9050	/* Shadow Item: Stockings of Knowledge */	life_time=0	shadow_time=36000	end
+begin	item_id=9051	/* Shadow Item: Gloves of Knowledge */	life_time=0	shadow_time=36000	end
+begin	item_id=9052	/* Shadow Item: Boots of Knowledge */	life_time=0	shadow_time=36000	end
+begin	item_id=9053	/* Shadow Item: Helmet */	life_time=0	shadow_time=36000	end
+begin	item_id=9054	/* Shadow Item: Composite Armor */	life_time=0	shadow_time=36000	end
+begin	item_id=9055	/* Shadow Item: Composite Boots */	life_time=0	shadow_time=36000	end
+begin	item_id=9056	/* Shadow Item: Composite Shield */	life_time=0	shadow_time=36000	end
+begin	item_id=9057	/* Shadow Item: Composite Helmet */	life_time=0	shadow_time=36000	end
+begin	item_id=9058	/* Shadow Item: Theca Leather Armor */	life_time=0	shadow_time=36000	end
+begin	item_id=9059	/* Shadow Item: Theca Leather Gaiters */	life_time=0	shadow_time=36000	end
+begin	item_id=9060	/* Shadow Item: Theca Leather Boots */	life_time=0	shadow_time=36000	end
+begin	item_id=9061	/* Shadow Item: Theca Leather Gloves */	life_time=0	shadow_time=36000	end
+begin	item_id=9062	/* Shadow Item: Demon's Tunic */	life_time=0	shadow_time=36000	end
+begin	item_id=9063	/* Shadow Item: Demon's Stockings */	life_time=0	shadow_time=36000	end
+begin	item_id=9064	/* Shadow Item: Demon's Boots */	life_time=0	shadow_time=36000	end
+begin	item_id=9065	/* Shadow Item: Demon's Gloves */	life_time=0	shadow_time=36000	end
+begin	item_id=9066	/* Shadow Item: Shining Circlet */	life_time=0	shadow_time=36000	end
+begin	item_id=9067	/* Shadow Item: Zubei's Breastplate */	life_time=0	shadow_time=36000	end
+begin	item_id=9068	/* Shadow Item: Zubei's Gaiters */	life_time=0	shadow_time=36000	end
+begin	item_id=9069	/* Shadow Item: Zubei's Helmet */	life_time=0	shadow_time=36000	end
+begin	item_id=9070	/* Shadow Item: Zubei's Shield */	life_time=0	shadow_time=36000	end
+begin	item_id=9071	/* Shadow Item: Zubei's Gauntlet */	life_time=0	shadow_time=36000	end
+begin	item_id=9072	/* Shadow Item: Zubei's Boots */	life_time=0	shadow_time=36000	end
+begin	item_id=9073	/* Shadow Item: Zubei's Leather Shirt */	life_time=0	shadow_time=36000	end
+begin	item_id=9074	/* Shadow Item: Zubei's Leather Gaiters */	life_time=0	shadow_time=36000	end
+begin	item_id=9075	/* Shadow Item: Zubei's Gauntlet */	life_time=0	shadow_time=36000	end
+begin	item_id=9076	/* Shadow Item: Zubei's Boots */	life_time=0	shadow_time=36000	end
+begin	item_id=9077	/* Shadow Item: Tunic of Zubei */	life_time=0	shadow_time=36000	end
+begin	item_id=9078	/* Shadow Item: Stockings of Zubei */	life_time=0	shadow_time=36000	end
+begin	item_id=9079	/* Shadow Item: Zubei's Gauntlet */	life_time=0	shadow_time=36000	end
+begin	item_id=9080	/* Shadow Item: Zubei's Boots */	life_time=0	shadow_time=36000	end
+begin	item_id=9081	/* Shadow Item: Dark Crystal Breastplate */	life_time=0	shadow_time=36000	end
+begin	item_id=9082	/* Shadow Item: Dark Crystal Gaiters */	life_time=0	shadow_time=36000	end
+begin	item_id=9083	/* Shadow Item: Dark Crystal Helmet */	life_time=0	shadow_time=36000	end
+begin	item_id=9084	/* Shadow Item: Dark Crystal Shield */	life_time=0	shadow_time=36000	end
+begin	item_id=9085	/* Shadow Item: Dark Crystal Gloves */	life_time=0	shadow_time=36000	end
+begin	item_id=9086	/* Shadow Item: Dark Crystal Boots */	life_time=0	shadow_time=36000	end
+begin	item_id=9087	/* Shadow Item: Dark Crystal Leather Armor */	life_time=0	shadow_time=36000	end
+begin	item_id=9088	/* Shadow Item: Dark Crystal Leggings */	life_time=0	shadow_time=36000	end
+begin	item_id=9089	/* Shadow Item: Dark Crystal Gloves */	life_time=0	shadow_time=36000	end
+begin	item_id=9090	/* Shadow Item: Dark Crystal Boots */	life_time=0	shadow_time=36000	end
+begin	item_id=9091	/* Shadow Item: Dark Crystal Robe */	life_time=0	shadow_time=36000	end
+begin	item_id=9092	/* Shadow Item: Dark Crystal Gloves */	life_time=0	shadow_time=36000	end
+begin	item_id=9093	/* Shadow Item: Dark Crystal Boots */	life_time=0	shadow_time=36000	end
+begin	item_id=9094	/* Shadow Item: Majestic Plate Armor */	life_time=0	shadow_time=36000	end
+begin	item_id=9095	/* Shadow Item: Magestic Circlet */	life_time=0	shadow_time=36000	end
+begin	item_id=9096	/* Shadow Item: Magestic Gauntlet */	life_time=0	shadow_time=36000	end
+begin	item_id=9097	/* Shadow Item: Magestic Boots */	life_time=0	shadow_time=36000	end
+begin	item_id=9098	/* Shadow Item: Majestic Leather Armor */	life_time=0	shadow_time=36000	end
+begin	item_id=9099	/* Shadow Item: Magestic Gauntlet */	life_time=0	shadow_time=36000	end
+begin	item_id=9100	/* Shadow Item: Magestic Boots */	life_time=0	shadow_time=36000	end
+begin	item_id=9101	/* Shadow Item: Magestic Robe */	life_time=0	shadow_time=36000	end
+begin	item_id=9102	/* Shadow Item: Magestic Gauntlet */	life_time=0	shadow_time=36000	end
+begin	item_id=9103	/* Shadow Item: Magestic Boots */	life_time=0	shadow_time=36000	end
+begin	item_id=9128	/* Shadow Item: Mithril Gauntlet */	life_time=0	shadow_time=36000	end
+begin	item_id=9129	/* Shadow Item: Shield of Nightmare */	life_time=0	shadow_time=36000	end
+begin	item_id=9141	/* Redemption Bow */	life_time=0	shadow_time=36000	end
+begin	item_id=9177	/* Teddy Bear Hat - Blessed Scroll of Resurrection */	life_time=0	shadow_time=18000	end
+begin	item_id=9178	/* Piggy Hat - Blessed Scroll of Resurrection */	life_time=0	shadow_time=18000	end
+begin	item_id=9179	/* Jester Hat - Blessed Scroll of Resurrection */	life_time=0	shadow_time=18000	end
+begin	item_id=9180	/* Wizard's Hat - Blessed Scroll of Resurrection */	life_time=0	shadow_time=18000	end
+begin	item_id=9181	/* Dapper Cap - Blessed Scroll of Resurrection */	life_time=0	shadow_time=18000	end
+begin	item_id=9182	/* Romantic Chapeau - Blessed Scroll of Resurrection */	life_time=0	shadow_time=18000	end
+begin	item_id=9183	/* Iron Circlet - Blessed Scroll of Resurrection */	life_time=0	shadow_time=18000	end
+begin	item_id=9184	/* Teddy Bear Hat - Blessed Scroll of Escape */	life_time=0	shadow_time=18000	end
+begin	item_id=9185	/* Piggy Hat - Blessed Scroll of Escape */	life_time=0	shadow_time=18000	end
+begin	item_id=9186	/* Jester Hat - Blessed Scroll of Escape */	life_time=0	shadow_time=18000	end
+begin	item_id=9187	/* Wizard's Hat - Blessed Scroll of Escape */	life_time=0	shadow_time=18000	end
+begin	item_id=9188	/* Dapper Cap - Blessed Scroll of Escape */	life_time=0	shadow_time=18000	end
+begin	item_id=9189	/* Romantic Chapeau - Blessed Scroll of Escape */	life_time=0	shadow_time=18000	end
+begin	item_id=9190	/* Iron Circlet - Blessed Scroll of Escape */	life_time=0	shadow_time=18000	end
+begin	item_id=9191	/* Teddy Bear Hat - Big Head */	life_time=0	shadow_time=18000	end
+begin	item_id=9192	/* Piggy Hat - Big Head */	life_time=0	shadow_time=18000	end
+begin	item_id=9193	/* Jester Hat - Big Head */	life_time=0	shadow_time=18000	end
+begin	item_id=9194	/* Wizard's Hat - Big Head */	life_time=0	shadow_time=18000	end
+begin	item_id=9195	/* Dapper Hat - Big Head */	life_time=0	shadow_time=18000	end
+begin	item_id=9196	/* Romantic Chapeau - Big Head */	life_time=0	shadow_time=18000	end
+begin	item_id=9197	/* Iron Circlet - Big Head */	life_time=0	shadow_time=18000	end
+begin	item_id=9198	/* Teddy Bear Hat - Firework */	life_time=0	shadow_time=18000	end
+begin	item_id=9199	/* Piggy Hat - Firework */	life_time=0	shadow_time=18000	end
+begin	item_id=9200	/* Jester Hat - Firework */	life_time=0	shadow_time=18000	end
+begin	item_id=9201	/* Wizard's Hat - Firework */	life_time=0	shadow_time=18000	end
+begin	item_id=9202	/* Dapper Hat - Firework */	life_time=0	shadow_time=18000	end
+begin	item_id=9203	/* Romantic Chapeau - Firework */	life_time=0	shadow_time=18000	end
+begin	item_id=9204	/* Iron Circlet - Firework */	life_time=0	shadow_time=18000	end

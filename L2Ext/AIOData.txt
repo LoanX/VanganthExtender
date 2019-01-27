@@ -1,0 +1,331 @@
+//All In One buffer skill data
+//Skills will be acquired once someone use "bypass -h become_aio?id=1"
+//timestamp - time in seconds
+global_setting_begin	enabled=1 can_use_outside_peacezone=0	global_setting_end
+//All In One buffer skill data
+//Skills will be acquired once someone use "bypass -h become_aio?id=1"
+//timestamp - time in seconds
+global_setting_begin	enabled=1 can_use_outside_peacezone=0	can_move_outside_peacezone=1	peacezone_location=0/0/0	global_setting_end
+setting_begin enabled=1 id=1  min_level=1 price_id=57  price_amount=100000  nickname_color=2474495 expire_time=2592000  reward_id=7575	setting_end
+setting_begin enabled=1 id=2  min_level=1 price_id=57  price_amount=1000  nickname_color=2474495 expire_time=432000  reward_id=7575	setting_end
+
+//AIO Curse passive skill
+begin	id=1  skill_id=10029	skill_level=1	end
+//Greater Battle Heal
+begin	id=1	skill_id=1218	skill_level=33	end
+//wind walk
+begin	id=1  skill_id=1204	skill_level=2 abnormal_time=7200	party_buff=0  end
+//shield
+begin	id=1  skill_id=1040	skill_level=3 abnormal_time=7200	party_buff=0  end
+//might
+begin	id=1  skill_id=1068	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Mental Shield
+begin	id=1  skill_id=1035	skill_level=4 abnormal_time=7200	party_buff=0  end
+//Resist Wind
+begin	id=1  skill_id=1189	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Bless The Body
+begin	id=1  skill_id=1045	skill_level=6 abnormal_time=7200	party_buff=0  end
+//Bless The Soul
+begin	id=1  skill_id=1048	skill_level=6 abnormal_time=7200	party_buff=0  end
+//Magic Barrier
+begin	id=1  skill_id=1036	skill_level=2 abnormal_time=7200	party_buff=0  end
+//Resist Fire
+begin	id=1  skill_id=1191	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Resist Water
+begin	id=1  skill_id=1182	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Greater Empower
+begin	id=1  skill_id=1059	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Wild Magic
+begin	id=1  skill_id=1303	skill_level=2 abnormal_time=7200	party_buff=0  end
+//Resist Shock
+begin	id=1  skill_id=1259	skill_level=4 abnormal_time=7200	party_buff=0  end
+//Holy Resist
+begin	id=1  skill_id=1392	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Unholy Resist 
+begin	id=1  skill_id=1393	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Elemental Protection
+begin	id=1  skill_id=1352	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Divine Protection
+begin	id=1  skill_id=1353	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Arcane Protection
+begin	id=1  skill_id=1354	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Prophecy of Water
+begin	id=1  skill_id=1355	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Prophecy of Fire
+begin	id=1  skill_id=1356	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Prophecy of Wind
+begin	id=1  skill_id=1357	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Chant of Victory
+begin	id=1  skill_id=1363	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Concentration
+begin	id=1  skill_id=1078	skill_level=6 abnormal_time=7200	party_buff=0  end
+//Berserker Spirit
+begin	id=1  skill_id=1062	skill_level=2 abnormal_time=7200	party_buff=0  end
+//Focus
+begin	id=1  skill_id=1077	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Acumen
+begin	id=1  skill_id=1085	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Agility
+begin	id=1  skill_id=1087	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Guidance
+begin	id=1  skill_id=1240	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Death Whisper
+begin	id=1  skill_id=1242	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Bless Shield
+begin	id=1  skill_id=1243	skill_level=6 abnormal_time=7200	party_buff=0  end
+//Vampiric Rage
+begin	id=1  skill_id=1268	skill_level=4 abnormal_time=7200	party_buff=0  end
+//Greater Might
+begin	id=1  skill_id=1388	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Greater Shield
+begin	id=1  skill_id=1389	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Advanced Block
+begin	id=1  skill_id=1304	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Prayer
+begin	id=1  skill_id=1307	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Noblesse Blessing
+begin	id=1  skill_id=1323	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance of Warrior
+begin	id=1  skill_id=271	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance of Inspiration
+begin	id=1  skill_id=272	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance of Mystic
+begin	id=1  skill_id=273	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance of Fire
+begin	id=1  skill_id=274	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance of Fury
+begin	id=1  skill_id=275	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance of Concentration
+begin	id=1  skill_id=276	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance of Light
+begin	id=1  skill_id=277	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance of Aqua Guard
+begin	id=1  skill_id=307	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance of Earth Guard
+begin	id=1  skill_id=309	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance of Vampire
+begin	id=1  skill_id=310	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance of Protection
+begin	id=1  skill_id=311	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Siren's Dance
+begin	id=1  skill_id=365	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Earth
+begin	id=1  skill_id=264	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Life
+begin	id=1  skill_id=265	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Water
+begin	id=1  skill_id=266	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Warding
+begin	id=1  skill_id=267	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Wind
+begin	id=1  skill_id=268	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Hunter
+begin	id=1  skill_id=269	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Invocation
+begin	id=1  skill_id=270	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Vitality
+begin	id=1  skill_id=304	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Vengeance
+begin	id=1  skill_id=305	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Renewal
+begin	id=1  skill_id=349	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Meditation
+begin	id=1  skill_id=363	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Champion
+begin	id=1  skill_id=364	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Flame Guard
+begin	id=1  skill_id=306	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Storm Guard
+begin	id=1  skill_id=308	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance Of Shadows
+begin	id=1  skill_id=366	skill_level=1 abnormal_time=1200	party_buff=0  end
+//Flu
+begin	id=1  skill_id=4553	skill_level=4 abnormal_time=7200	party_buff=0  end
+//Malaria
+begin	id=1  skill_id=4554	skill_level=4 abnormal_time=7200	party_buff=0  end
+//Cholera
+begin	id=1  skill_id=4552	skill_level=4 abnormal_time=7200	party_buff=0  end
+//Body Avatar
+begin	id=1  skill_id=1311	skill_level=6 abnormal_time=7200	party_buff=0  end
+//Gift Of Queen
+begin	id=1  skill_id=4700	skill_level=13 abnormal_time=7200	party_buff=0  end
+//Blessing of Queen
+begin	id=1  skill_id=4699	skill_level=13 abnormal_time=7200	party_buff=0  end
+//Blessing Of Seraphim
+begin	id=1  skill_id=4702	skill_level=13 abnormal_time=7200	party_buff=0  end
+//Gift Of Seraphim
+begin	id=1  skill_id=4703	skill_level=13 abnormal_time=7200	party_buff=0  end
+//Magnus Chant
+begin	id=1  skill_id=1413	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Haste
+begin	id=1  skill_id=1086	skill_level=2 abnormal_time=7200	party_buff=0  end
+//Earth Chant
+begin	id=1  skill_id=1391	skill_level=3 abnormal_time=7200	party_buff=0  end
+//War Chant
+begin	id=1  skill_id=1390	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Chant Of Vampire
+begin	id=1  skill_id=1310	skill_level=4 abnormal_time=7200	party_buff=0  end
+//Ritual Of Life
+begin	id=1  skill_id=1306	skill_level=130 end
+//Greater Battle Heal
+begin	id=1  skill_id=1218	skill_level=130 end
+//AIO Curse passive skill
+begin	id=2  skill_id=10029	skill_level=1	end
+//Greater Battle Heal
+begin	id=2	skill_id=1218	skill_level=33	end
+//wind walk
+begin	id=2  skill_id=1204	skill_level=2 abnormal_time=7200	party_buff=0  end
+//shield
+begin	id=2  skill_id=1040	skill_level=3 abnormal_time=7200	party_buff=0  end
+//might
+begin	id=2  skill_id=1068	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Mental Shield
+begin	id=2  skill_id=1035	skill_level=4 abnormal_time=7200	party_buff=0  end
+//Resist Wind
+begin	id=2  skill_id=1189	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Bless The Body
+begin	id=2  skill_id=1045	skill_level=6 abnormal_time=7200	party_buff=0  end
+//Bless The Soul
+begin	id=2  skill_id=1048	skill_level=6 abnormal_time=7200	party_buff=0  end
+//Magic Barrier
+begin	id=2  skill_id=1036	skill_level=2 abnormal_time=7200	party_buff=0  end
+//Resist Fire
+begin	id=2  skill_id=1191	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Resist Water
+begin	id=2  skill_id=1182	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Greater Empower
+begin	id=2  skill_id=1059	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Wild Magic
+begin	id=2  skill_id=1303	skill_level=2 abnormal_time=7200	party_buff=0  end
+//Resist Shock
+begin	id=2  skill_id=1259	skill_level=4 abnormal_time=7200	party_buff=0  end
+//Holy Resist
+begin	id=2  skill_id=1392	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Unholy Resist 
+begin	id=2  skill_id=1393	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Elemental Protection
+begin	id=2  skill_id=1352	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Divine Protection
+begin	id=2  skill_id=1353	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Arcane Protection
+begin	id=2  skill_id=1354	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Prophecy of Water
+begin	id=2  skill_id=1355	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Prophecy of Fire
+begin	id=2  skill_id=1356	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Prophecy of Wind
+begin	id=2  skill_id=1357	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Chant of Victory
+begin	id=2  skill_id=1363	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Concentration
+begin	id=2  skill_id=1078	skill_level=6 abnormal_time=7200	party_buff=0  end
+//Berserker Spirit
+begin	id=2  skill_id=1062	skill_level=2 abnormal_time=7200	party_buff=0  end
+//Focus
+begin	id=2  skill_id=1077	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Acumen
+begin	id=2  skill_id=1085	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Agility
+begin	id=2  skill_id=1087	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Guidance
+begin	id=2  skill_id=1240	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Death Whisper
+begin	id=2  skill_id=1242	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Bless Shield
+begin	id=2  skill_id=1243	skill_level=6 abnormal_time=7200	party_buff=0  end
+//Vampiric Rage
+begin	id=2  skill_id=1268	skill_level=4 abnormal_time=7200	party_buff=0  end
+//Greater Might
+begin	id=2  skill_id=1388	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Greater Shield
+begin	id=2  skill_id=1389	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Advanced Block
+begin	id=2  skill_id=1304	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Prayer
+begin	id=2  skill_id=1307	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Noblesse Blessing
+begin	id=2  skill_id=1323	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance of Warrior
+begin	id=2  skill_id=271	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance of Inspiration
+begin	id=2  skill_id=272	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance of Mystic
+begin	id=2  skill_id=273	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance of Fire
+begin	id=2  skill_id=274	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance of Fury
+begin	id=2  skill_id=275	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance of Concentration
+begin	id=2  skill_id=276	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance of Light
+begin	id=2  skill_id=277	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance of Aqua Guard
+begin	id=2  skill_id=307	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance of Earth Guard
+begin	id=2  skill_id=309	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance of Vampire
+begin	id=2  skill_id=310	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance of Protection
+begin	id=2  skill_id=311	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Siren's Dance
+begin	id=2  skill_id=365	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Earth
+begin	id=2  skill_id=264	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Life
+begin	id=2  skill_id=265	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Water
+begin	id=2  skill_id=266	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Warding
+begin	id=2  skill_id=267	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Wind
+begin	id=2  skill_id=268	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Hunter
+begin	id=2  skill_id=269	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Invocation
+begin	id=2  skill_id=270	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Vitality
+begin	id=2  skill_id=304	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Vengeance
+begin	id=2  skill_id=305	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Renewal
+begin	id=2  skill_id=349	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Meditation
+begin	id=2  skill_id=363	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Champion
+begin	id=2  skill_id=364	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Flame Guard
+begin	id=2  skill_id=306	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Song of Storm Guard
+begin	id=2  skill_id=308	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Dance Of Shadows
+begin	id=2  skill_id=366	skill_level=1 abnormal_time=1200	party_buff=0  end
+//Flu
+begin	id=2  skill_id=4553	skill_level=4 abnormal_time=7200	party_buff=0  end
+//Malaria
+begin	id=2  skill_id=4554	skill_level=4 abnormal_time=7200	party_buff=0  end
+//Cholera
+begin	id=2  skill_id=4552	skill_level=4 abnormal_time=7200	party_buff=0  end
+//Body Avatar
+begin	id=2  skill_id=1311	skill_level=6 abnormal_time=7200	party_buff=0  end
+//Gift Of Queen
+begin	id=2  skill_id=4700	skill_level=13 abnormal_time=7200	party_buff=0  end
+//Blessing of Queen
+begin	id=2  skill_id=4699	skill_level=13 abnormal_time=7200	party_buff=0  end
+//Blessing Of Seraphim
+begin	id=2  skill_id=4702	skill_level=13 abnormal_time=7200	party_buff=0  end
+//Gift Of Seraphim
+begin	id=2  skill_id=4703	skill_level=13 abnormal_time=7200	party_buff=0  end
+//Magnus Chant
+begin	id=2  skill_id=1413	skill_level=1 abnormal_time=7200	party_buff=0  end
+//Haste
+begin	id=2  skill_id=1086	skill_level=2 abnormal_time=7200	party_buff=0  end
+//Earth Chant
+begin	id=2  skill_id=1391	skill_level=3 abnormal_time=7200	party_buff=0  end
+//War Chant
+begin	id=2  skill_id=1390	skill_level=3 abnormal_time=7200	party_buff=0  end
+//Chant Of Vampire
+begin	id=2  skill_id=1310	skill_level=4 abnormal_time=7200	party_buff=0  end
+//Ritual Of Life
+begin	id=2  skill_id=1306	skill_level=130 end
+//Greater Battle Heal
+begin	id=2  skill_id=1218	skill_level=130 end

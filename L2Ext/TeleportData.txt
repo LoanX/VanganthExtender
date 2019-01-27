@@ -1,0 +1,5 @@
+//begin name price x y z end usage: bypass -h player_teleport?name=giran_town
+//if required_item_id is set (not 0) then price should be set to 0 else it will require adena and required_item_id
+//if required_item_count is higher than 1 then item_type should be stackable
+begin	name=giran_town	price=1500	x_loc=83400	y_loc=147943	z_loc=-3404	min_level=1	max_level=80	required_item_id=1458	required_item_count=5 end
+begin	name=aden_town	price=1500	x_loc=147450	y_loc=26741	z_loc=-2204	min_level=1	max_level=80	required_item_id=1458	required_item_count=5 end

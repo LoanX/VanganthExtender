@@ -1,0 +1,104 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IlExt", "L2Ext\L2Ext.vcproj", "{9D58C003-2B29-4A89-A6B0-BE14AD47CA9D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D222A826-9556-423E-BF3D-B679DB2D5F20} = {D222A826-9556-423E-BF3D-B679DB2D5F20}
+		{EC9B103B-6A07-4855-AB76-0937F6FDCA56} = {EC9B103B-6A07-4855-AB76-0937F6FDCA56}
+		{E0866AA6-DE1F-4233-8D32-752FF252C722} = {E0866AA6-DE1F-4233-8D32-752FF252C722}
+		{4F0094E1-7364-42B3-AAAE-3393A1AD7CCF} = {4F0094E1-7364-42B3-AAAE-3393A1AD7CCF}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CachedExt", "CachedExt\CachedExt\CachedExt.vcproj", "{EC9B103B-6A07-4855-AB76-0937F6FDCA56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{5EC80625-9983-4BC5-A933-3F1148FAA291}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{D0ABBD6D-1FF0-43CA-9724-B3A2D3EB770C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CacheD", "CacheD", "{F735B725-2CD5-4BCA-9B10-AC57F015CDD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "L2Server", "L2Server", "{1E02FB0F-673F-4F2B-8475-CE8136D3F2A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NPC Server", "NPC Server", "{6DD6E683-B119-4D25-8F75-AEEAA36715AD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NpcExt", "NpcExt\NpcExt.vcproj", "{D222A826-9556-423E-BF3D-B679DB2D5F20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{2D9C0CC0-B55B-467C-8C44-992EA0E9CA7C}"
+	ProjectSection(SolutionItems) = preProject
+		SQL\0_create-db.sql = SQL\0_create-db.sql
+		SQL\10_sql_update.sql = SQL\10_sql_update.sql
+		SQL\11_user_prohibit.sql = SQL\11_user_prohibit.sql
+		SQL\1_lin2clancomm.sql = SQL\1_lin2clancomm.sql
+		SQL\2_lin2comm.sql = SQL\2_lin2comm.sql
+		SQL\3_lin2db.sql = SQL\3_lin2db.sql
+		SQL\4_lin2log.sql = SQL\4_lin2log.sql
+		SQL\5_lin2report.sql = SQL\5_lin2report.sql
+		SQL\6_lin2user.sql = SQL\6_lin2user.sql
+		SQL\7_lin2world.sql = SQL\7_lin2world.sql
+		SQL\8_petition.sql = SQL\8_petition.sql
+		SQL\9_class_list.sql = SQL\9_class_list.sql
+		SQL\x_self.sql = SQL\x_self.sql
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CliExt", "CliExt\CliExt.vcproj", "{E0866AA6-DE1F-4233-8D32-752FF252C722}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KeyGenerator", "KeyGenerator\KeyGenerator.vcproj", "{4F0094E1-7364-42B3-AAAE-3393A1AD7CCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D58C003-2B29-4A89-A6B0-BE14AD47CA9D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9D58C003-2B29-4A89-A6B0-BE14AD47CA9D}.Debug|Win32.Build.0 = Debug|Win32
+		{9D58C003-2B29-4A89-A6B0-BE14AD47CA9D}.Debug|x64.ActiveCfg = Debug|x64
+		{9D58C003-2B29-4A89-A6B0-BE14AD47CA9D}.Debug|x64.Build.0 = Debug|x64
+		{9D58C003-2B29-4A89-A6B0-BE14AD47CA9D}.Release|Win32.ActiveCfg = Release|Win32
+		{9D58C003-2B29-4A89-A6B0-BE14AD47CA9D}.Release|Win32.Build.0 = Release|Win32
+		{9D58C003-2B29-4A89-A6B0-BE14AD47CA9D}.Release|x64.ActiveCfg = Release|x64
+		{9D58C003-2B29-4A89-A6B0-BE14AD47CA9D}.Release|x64.Build.0 = Release|x64
+		{EC9B103B-6A07-4855-AB76-0937F6FDCA56}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EC9B103B-6A07-4855-AB76-0937F6FDCA56}.Debug|Win32.Build.0 = Debug|Win32
+		{EC9B103B-6A07-4855-AB76-0937F6FDCA56}.Debug|x64.ActiveCfg = Debug|Win32
+		{EC9B103B-6A07-4855-AB76-0937F6FDCA56}.Release|Win32.ActiveCfg = Release|Win32
+		{EC9B103B-6A07-4855-AB76-0937F6FDCA56}.Release|Win32.Build.0 = Release|Win32
+		{EC9B103B-6A07-4855-AB76-0937F6FDCA56}.Release|x64.ActiveCfg = Release|Win32
+		{EC9B103B-6A07-4855-AB76-0937F6FDCA56}.Release|x64.Build.0 = Release|Win32
+		{D222A826-9556-423E-BF3D-B679DB2D5F20}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D222A826-9556-423E-BF3D-B679DB2D5F20}.Debug|Win32.Build.0 = Debug|Win32
+		{D222A826-9556-423E-BF3D-B679DB2D5F20}.Debug|x64.ActiveCfg = Debug|Win32
+		{D222A826-9556-423E-BF3D-B679DB2D5F20}.Release|Win32.ActiveCfg = Release|Win32
+		{D222A826-9556-423E-BF3D-B679DB2D5F20}.Release|Win32.Build.0 = Release|Win32
+		{D222A826-9556-423E-BF3D-B679DB2D5F20}.Release|x64.ActiveCfg = Release|x64
+		{D222A826-9556-423E-BF3D-B679DB2D5F20}.Release|x64.Build.0 = Release|x64
+		{E0866AA6-DE1F-4233-8D32-752FF252C722}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E0866AA6-DE1F-4233-8D32-752FF252C722}.Debug|Win32.Build.0 = Debug|Win32
+		{E0866AA6-DE1F-4233-8D32-752FF252C722}.Debug|x64.ActiveCfg = Debug|Win32
+		{E0866AA6-DE1F-4233-8D32-752FF252C722}.Release|Win32.ActiveCfg = Release|Win32
+		{E0866AA6-DE1F-4233-8D32-752FF252C722}.Release|Win32.Build.0 = Release|Win32
+		{E0866AA6-DE1F-4233-8D32-752FF252C722}.Release|x64.ActiveCfg = Release|Win32
+		{E0866AA6-DE1F-4233-8D32-752FF252C722}.Release|x64.Build.0 = Release|Win32
+		{4F0094E1-7364-42B3-AAAE-3393A1AD7CCF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4F0094E1-7364-42B3-AAAE-3393A1AD7CCF}.Debug|Win32.Build.0 = Debug|Win32
+		{4F0094E1-7364-42B3-AAAE-3393A1AD7CCF}.Debug|x64.ActiveCfg = Debug|Win32
+		{4F0094E1-7364-42B3-AAAE-3393A1AD7CCF}.Release|Win32.ActiveCfg = Release|Win32
+		{4F0094E1-7364-42B3-AAAE-3393A1AD7CCF}.Release|Win32.Build.0 = Release|Win32
+		{4F0094E1-7364-42B3-AAAE-3393A1AD7CCF}.Release|x64.ActiveCfg = Release|Win32
+		{4F0094E1-7364-42B3-AAAE-3393A1AD7CCF}.Release|x64.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E02FB0F-673F-4F2B-8475-CE8136D3F2A6} = {5EC80625-9983-4BC5-A933-3F1148FAA291}
+		{6DD6E683-B119-4D25-8F75-AEEAA36715AD} = {5EC80625-9983-4BC5-A933-3F1148FAA291}
+		{EC9B103B-6A07-4855-AB76-0937F6FDCA56} = {F735B725-2CD5-4BCA-9B10-AC57F015CDD0}
+		{9D58C003-2B29-4A89-A6B0-BE14AD47CA9D} = {1E02FB0F-673F-4F2B-8475-CE8136D3F2A6}
+		{4F0094E1-7364-42B3-AAAE-3393A1AD7CCF} = {1E02FB0F-673F-4F2B-8475-CE8136D3F2A6}
+		{E0866AA6-DE1F-4233-8D32-752FF252C722} = {D0ABBD6D-1FF0-43CA-9724-B3A2D3EB770C}
+		{D222A826-9556-423E-BF3D-B679DB2D5F20} = {6DD6E683-B119-4D25-8F75-AEEAA36715AD}
+	EndGlobalSection
+EndGlobal

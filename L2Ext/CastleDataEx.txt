@@ -1,0 +1,10 @@
+castle_begin	castle_id=1	/* Gludio Castle */	win_reward_id=0	win_reward_count=0	casle_end
+castle_begin	castle_id=2	/* Dion Castle */	win_reward_id=0	win_reward_count=0	casle_end
+castle_begin	castle_id=3	/* Giran Castle */	win_reward_id=0	win_reward_count=0	casle_end
+castle_begin	castle_id=4	/* Oren Castle */	win_reward_id=0	win_reward_count=0	casle_end
+castle_begin	castle_id=5	/* Aden Castle */	win_reward_id=0	win_reward_count=0	casle_end
+castle_begin	castle_id=6	/* Innadril Castle */	win_reward_id=0	win_reward_count=0	casle_end
+castle_begin	castle_id=7	/* Goddard Castle */	win_reward_id=0	win_reward_count=0	casle_end
+castle_begin	castle_id=8	/* Rune Castle */	win_reward_id=0	win_reward_count=0	casle_end
+castle_begin	castle_id=9	/* Schuttgard Castle */	win_reward_id=0	win_reward_count=0	casle_end
+agit_begin	agit_id=34	/* Devastated castle */	win_reward_id=0	win_reward_count=0	agit_end

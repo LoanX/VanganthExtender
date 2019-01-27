@@ -1,0 +1,60 @@
+//Parameters:
+//direct_to_hp can be 1 or 0 (makes skill to hit directly to hp
+//soulshot_bonus (double value) multiples damage if soulshot is activated
+//avoid_shield_block can be 1 or 0 makes skill to avoid shield block
+//magic_shield_block can be 1 or 0 makes magic skill blockable by shield
+//geodata_test can be 1 or 0 makes l2server to validate geodata between targets (for aoe skills)
+//instant_cast_time (int value) time in miliseconds when skill will be activated
+//static_reuse_time (int value) time in miliseconds - static reuse delay (for is_magic=1 or 2)
+begin	skill_name=[s_spinning_slasher11]	skill_id=36	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=1	magic_shield_block=0	end
+begin	skill_name=[s_backstab11]	skill_id=30	direct_to_hp=1	soulshot_bonus=0	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_thunder_storm11]	skill_id=48	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=1	magic_shield_block=0	end
+begin	skill_name=[s_punch_of_doom1]	skill_id=81	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=1	magic_shield_block=0	end
+begin	skill_name=[s_hammer_crush11]	skill_id=260	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=1	magic_shield_block=0	end
+begin	skill_name=[s_triple_sonic_slash11]	skill_id=261	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=1	magic_shield_block=0	end
+begin	skill_name=[s_burning_fist11]	skill_id=280	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=1	magic_shield_block=0	end
+begin	skill_name=[s_soul_breaker11]	skill_id=281	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=1	magic_shield_block=0	end
+begin	skill_name=[s_hurricane_assault11]	skill_id=284	direct_to_hp=0	soulshot_bonus=0	avoid_shield_block=1	magic_shield_block=0	end
+begin	skill_name=[s_crush_of_doom1]	skill_id=315	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=1	magic_shield_block=0	end
+begin	skill_name=[s_shock_blast1]	skill_id=361	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=1	magic_shield_block=0	end
+begin	skill_name=[s_earthquake1]	skill_id=347	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=1	magic_shield_block=0	end
+begin	skill_name=[s_power_strike11]	skill_id=3	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_power_shot11]	skill_id=56	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_stun_shot11]	skill_id=101	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_stun_attack11]	skill_id=100	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_iron_punch11]	skill_id=29	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_stunning_fist11]	skill_id=120	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_bleed_attack11]	skill_id=223	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_wild_sweep11]	skill_id=245	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_power_smash11]	skill_id=255	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_triple_slash11]	skill_id=1	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_double_shot11]	skill_id=19	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_burst_shot11]	skill_id=24	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_poison_blade_dance1]	skill_id=84	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_sword_symphony1]	skill_id=98	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_fatal_strike11]	skill_id=190	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_strider_siege_assault]	skill_id=325	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_lethal_shot1]	skill_id=343	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_sonic_rage1]	skill_id=345	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_force_rage1]	skill_id=346	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_spoil_crush1]	skill_id=348	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_hamstring_shot1]	skill_id=354	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_armor_crush1]	skill_id=362	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_evade_shot1]	skill_id=369	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_tribunal11]	skill_id=400	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_judgment_hate11]	skill_id=401	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_psycho_symphony1]	skill_id=407	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_demonic_blade_dance1]	skill_id=408	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_double_sonic_slash11]	skill_id=5	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_sonic_blaster11]	skill_id=6	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_sonic_storm11]	skill_id=7	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_sonic_buster11]	skill_id=9	direct_to_hp=0	soulshot_bonus=1.33	avoid_shield_block=0	magic_shield_block=0	end
+begin	skill_name=[s_wind_strike11]	skill_id=1177	direct_to_hp=0	soulshot_bonus=0	avoid_shield_block=0	magic_shield_block=1	end
+begin	skill_name=[s_aqua_swirl11]	skill_id=1175	direct_to_hp=0	soulshot_bonus=0	avoid_shield_block=0	magic_shield_block=1	end
+begin	skill_name=[s_twister11]	skill_id=1178	direct_to_hp=0	soulshot_bonus=0	avoid_shield_block=0	magic_shield_block=1	end
+begin	skill_name=[s_blaze11]	skill_id=1220	direct_to_hp=0	soulshot_bonus=0	avoid_shield_block=0	magic_shield_block=1	end
+begin	skill_name=[s_death_spike1]	skill_id=1148	direct_to_hp=0	soulshot_bonus=0	avoid_shield_block=0	magic_shield_block=1	end
+begin	skill_name=[s_prominence11]	skill_id=1230	direct_to_hp=0	soulshot_bonus=0	avoid_shield_block=0	magic_shield_block=1	end
+begin	skill_name=[s_ice_dagger11]	skill_id=1237	direct_to_hp=0	soulshot_bonus=0	avoid_shield_block=0	magic_shield_block=1	end
+begin	skill_name=[s_hurricane11]	skill_id=1239	direct_to_hp=0	soulshot_bonus=0	avoid_shield_block=0	magic_shield_block=1	end
+begin	skill_name=[s_mass_ressurection1]	skill_id=1254	geodata_test=1	end
